@@ -11,7 +11,7 @@ Extrodinary.
 # What needs to change
 When this repo is coloned into a new project, the things that need to be changed are:
 
-Substitute
+Substitute:
 - "py_template" for the name of your new project.
 - delete the "config.json" and "sample.csv" files.
 
