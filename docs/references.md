@@ -1,6 +1,16 @@
 # Refferences
 Many excellent resources have been utilised to the fullest in the construction of this repo. Bellow is a list of the most notable resources used, but by no means is it exhaustive.
 
+## Pythonic Zen
+There are a few important principals by which this repo is based:
+
+- Use type hints, for example:
+```
+def hello_name(name: str) -> str:
+    return(f"Hello {name}")
+```
+- Use docstrings, following the 
+
 ## Repo Structure
 This template repo is based on the structure suggested by the [RealPython](https://realpython.com/python-application-layouts/#application-with-internal-packages) and [PyPA](https://github.com/pypa/sampleproject).
 
