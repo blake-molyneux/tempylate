@@ -1,0 +1,4 @@
+# This file specifies local assets to be ignored by git
+
+# Ignore: Local python virtual environments
+/venv
