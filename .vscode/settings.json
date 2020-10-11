@@ -1,3 +1,5 @@
 {
-    "python.pythonPath": "/home/blake/Documents/projects/py_template/venv/bin/python3"
+    "python.pythonPath": "/home/blake/Documents/projects/py_template/venv/bin/python3",
+    "restructuredtext.confPath": "",
+    "editor.rulers": [79],
 }
