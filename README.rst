@@ -62,6 +62,10 @@ in the `Low`_ level are:
 - `Constants`_ 
 - `Functions`_ 
 
+Included Functions
+------------------
+- TODO: Build and list the included (functional) modules.
+
 Tests
 -----
 - TODO: Learn how tests work.
@@ -74,7 +78,8 @@ changed are:
 - Create a virtual python environment within the "template" dir with the 
   command "``python3 -m venv venv``".
 - Change "py_template" to the name of the new project.
-- Delete files that include "DELETE ME". (e.g. .json" and "sample.csv")
+- Delete files that include in their name "sample" as these are filler and
+  don't provide any functionality.
 - Work through each file in each directory and change the bylines/docstrings.
 
 Included in this repo are baseline modules that form the backbone of most 
@@ -85,21 +90,37 @@ NOTOUCH:
 
 Publication
 -----------
+There are several steps to the publication process. These are:
+
+1. Formalise all documentation.
+#. Configure setup.py file.
+#. Build project into distro.
+#. Upload build to the Test PyPI platform. Confirm functionality.
+#. Upload revised build to PyPI.
+#. Upload docs to Read The Docs.
+
+PyPI Pub
+~~~~~~~~
 The steps to publish this (or any other) repo to `PyPI`_ are covered in the 
 `publication tutorial`_.
+
+Read The Docs
+~~~~~~~~~~~~~
+To publish documentation to Read The Docs follow the guide to 
+`documentation publication`_
 
 Version
 ~~~~~~~
 The versioning standard of this project shall conform with `PEP 440`_'s 
 "canonical format". More specifically the project shall use a "simple" three
-tier ``major.minor.micro`` schema. No preceeding "v". For example::
+tier "``major.minor.micro``" (``X.Y.Z``) schema. No preceeding "v". Dev versions 
+are to use the ``.devM`` suffix. For example::
 
     0.0.1
-    0.0.8
     0.1.1
     2.0.1
     ...
-
+    2.1.0.dev1
 
 Repo Structure
 --------------
@@ -145,11 +166,38 @@ Structure::
     ├── LICENSE
     └── README.md
 
-This is based heavily on the structure outlined in both `RealPython`_'s
-and `PyPA`_'s sample projects.
+This structure was inspired by the structure outlined in both `RealPython`_'s
+and `PyPA`_'s sample projects. Additionally many open source projects were 
+reviewed to get a sense of what formats are widely used.
+
+Samples/Boilerplate
+-------------------
+
+Package Docstring
+~~~~~~~~~~~~~~~~~
+
+Module Docstring
+~~~~~~~~~~~~~~~~
+Boilerplate module (Middle) level docstring. Fill in the ``[ ]`` sections.
+
+    """[module name] does [summery]. This line must be less than 79 chars.
+
+    This module has been built to solve [problem]. It approaches this by
+    [description]. It has [not?] been tested on [platform(s)]. 
+
+    []
+
+    """#&
+
+As a sidenote it is also expected that the following annotation dunders will be
+included in each and every module:
+
+- ``__author__ = "[name]"`` 
+- ``__version__ = "X.Y.Z"``
+
 
 Git Usage
----------
+~~~~~~~~~
 Git commits shall follow this format::
 
     (Manditory) Summarize changes made in <50 characters
@@ -175,13 +223,14 @@ production. All references are included throughout this document.
 
 Blake Molyneux, 2020
 
+.. _documentation publication: https://packaging.python.org/tutorials/creating-documentation/
 .. _reStructuredText: https://docutils.sourceforge.io/docs/user/rst/quickref.html
-.. _Module: https://numpydoc.readthedocs.io/en/latest/format.html#id15
+.. _Module: https://numpydoc.readthedocs.io/en/latest/format.html#documenting-modules
 .. _Numpy: https://numpydoc.readthedocs.io/en/latest/format.html
 .. _here: https://numpydoc.readthedocs.io/en/latest/example.html#example
-.. _Classes: https://numpydoc.readthedocs.io/en/latest/format.html#id9
-.. _Constants: https://numpydoc.readthedocs.io/en/latest/format.html#id14
-.. _Functions: 
+.. _Classes: https://numpydoc.readthedocs.io/en/latest/format.html#documenting-classes
+.. _Constants: https://numpydoc.readthedocs.io/en/latest/format.html#documenting-constants
+.. _Functions: https://numpydoc.readthedocs.io/en/latest/format.html#sections
 .. _PEP 440: https://www.python.org/dev/peps/pep-0440/
 .. _PyPI: https://pypi.org/
 .. _publication tutorial: https://packaging.python.org/tutorials/packaging-projects/
