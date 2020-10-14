@@ -1,8 +1,9 @@
+==========
 Authorship
 ==========
 
-This repo is authored by Blake Molyneux.
+Originaly created on Wednesday the 7th of October 2020.
 
-It was originaly created on Wednesday the 7th of October 2020.
+This repo is authored by Blake Molyneux.
 
 Email: blake.molyneux@hotmail.com

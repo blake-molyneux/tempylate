@@ -1,5 +1,13 @@
-# This file specifies local assets to be ignored by git
-
-# Ignore: Local python virtual environments
-/venv
+# GIT IGNORE:
+# Local vscode editor settings
 /.vscode
+
+# Local python virtual environment
+/venv
+
+# Python stuff
+sdist/
+_pycache__/
+
+# Sphinx documentation
+docs/_build/

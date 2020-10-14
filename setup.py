@@ -1,6 +1,15 @@
+"""[module name] does [summery]. This line must be less than 72 chars.
 
+This module has been built to solve [problem]. It approaches this by
+[description]. It has [not?] been tested on [platform(s)]. 
+
+
+
+"""
 
 import setuptools
+
+
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
