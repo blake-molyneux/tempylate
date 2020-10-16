@@ -1,4 +1,5 @@
-"""Constructs a new python project.
+"""
+Constructs a new python project.
 
 .. warning:: 
     Work In Progress. This module is in active development.
@@ -10,18 +11,18 @@ starting a new python project. It takes too long to setup boilerplate
 files, folders, etc when the majority of the projects undertaken use a
 fundamentally homeomorphic, specified structure.
 
-This module is a component of the TEMPYLATE project.
+This module is a component of the **tempylate** project.
 """
+
 
 __author__ = "Blake Molyneux"
 __email__ = "blake.molyneux@hotmail.com"
-
+__docformat__ = "restructuredtext"
 __license__ = "MIT"
 __version__ = "0.0.1.dev0"
 
 # __all__ = [] # TODO: Don't know how this works yet
 
-# IMPORTS
 import os
 import pathlib
 import time

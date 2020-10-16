@@ -21,6 +21,8 @@ There are a few important schemas to be uphold:
 - Follow the Documentation_ guidelines.
 - Write `Tests`_ for each and every function.
 - All files shall be written in UTF8 encoding.
+- The preference is to use single quotes `' '` over double quotes `" "`
+  wherever possible to enhance code readability.
 
 
 Documentation
@@ -209,6 +211,13 @@ Git commits shall follow this format::
     (Optional) Put here additional links and/or co-authors.
 
 Heavily based on the commit format specified by `Jacob (dev.to)`_.
+
+Appendix
+--------
+Usefull code incantations:
+  - ``pip freeze | xargs pip uninstall -y``
+  - Uninstall all modules from python environment.
+
 
 References
 ----------
