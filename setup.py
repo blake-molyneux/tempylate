@@ -1,32 +1,33 @@
-"""[module name] does [summery]. This line must be less than 72 chars.
+"""Run this setup file to build the project.
 
-This module has been built to solve [problem]. It approaches this by
-[description]. It has [not?] been tested on [platform(s)]. 
+.. warning::
+    Work In Progress.
 
-
+Examples
+--------
+To build the file:
+    $ 
 
 """
 
 import setuptools
 
-
-
-with open("README.md", "r") as fh:
-    long_description = fh.read()
+with open("README.rst", "r") as f:
+    long_description = f.read()
 
 setuptools.setup(
-    name="example-pkg-YOUR-USERNAME-HERE", # Replace with your own username
-    version="0.0.1",
-    author="Example Author",
-    author_email="author@example.com",
-    description="A small example package",
+    name="tempylate",
+    version="0.0.1.dev0",
+    author="Blake Molyneux",
+    author_email="blake.molyneux@hotmail.com",
+    description="A package to expedite the package authorship process.",
     long_description=long_description,
-    long_description_content_type="text/markdown",
-    url="https://github.com/pypa/sampleproject",
+    long_description_content_type="text/x-rst",
+    url="https://github.com/blake-molyneux/tempylate",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
+        "License :: MIT License",
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.6',

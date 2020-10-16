@@ -34,9 +34,7 @@ def main():
     print("It works!")
     return None
 
-def read_cla
-
-# If invoked as the main file, run the main function
+# If called directly, run main()
 if __name__ == "__main__":
 
     main()
