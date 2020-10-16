@@ -26,7 +26,9 @@ There are a few important schemas to be uphold:
 Documentation
 -------------
 There are many layers of documentation in this repo. In all cases 
-documentation must be composed in `reStructuredText`_.
+documentation must be composed in `reStructuredText`_. The main
+inspiration for the structure of the documentation is the `Numpy`_
+formal documentation specification.
 Docs fall into one of 3 tiers:
 
 High
@@ -133,40 +135,27 @@ Repo Structure
 
 Structure::
 
-    helloworld/
+    tempylate/
     │
     ├── bin/
     │
     ├── docs/
-    │   ├── hello.md
-    │   └── world.md
+    │   └── authorship.rst
     │
-    ├── helloworld/
+    ├── tempylate/
     │   ├── __init__.py
-    │   ├── runner.py
-    │   ├── hello/
+    │   ├── __main__.py
+    │   ├── tempylate.py
+    │   └── namepkg/
     │   │   ├── __init__.py
-    │   │   ├── hello.py
-    │   │   └── helpers.py
-    │   │
-    │   └── world/
-    │       ├── __init__.py
-    │       ├── helpers.py
-    │       └── world.py
+    │   │   └── namepkg.py
     │
     ├── data/
-    │   ├── input.csv
-    │   └── output.xlsx
+    │   ├── sample.csv
+    │   └── sample.json
     │
     ├── tests/
-    │   ├── hello
-    │   │   ├── helpers_tests.py
-    │   │   └── hello_tests.py
-    │   │
-    │   └── world/
-    │       ├── helpers_tests.py
-    │       └── world_tests.py
-    │
+    |
     ├── .gitignore
     ├── LICENSE
     └── README.md

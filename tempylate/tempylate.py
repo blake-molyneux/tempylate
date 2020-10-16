@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 """Constructs a new python project.
 
 .. warning:: 
@@ -20,7 +18,6 @@ __email__ = "blake.molyneux@hotmail.com"
 
 __license__ = "MIT"
 __version__ = "0.0.1.dev0"
-__depricated__ = False
 
 # __all__ = [] # TODO: Don't know how this works yet
 
@@ -31,7 +28,7 @@ import time
 import json
 
 def main():
-    print("It works!")
+    print("This is the tempylate project main.py!")
     return None
 
 # If called directly, run main()
