@@ -18,7 +18,8 @@ __license__ = "MIT"
 __version__ = "0.0.1.dev0"
 
 
-import urllib
+import urllib.request
+import urllib.parse
 
 class Name:
     """
@@ -45,8 +46,8 @@ class Name:
                  theme : str = '',
                  name : str = ''):
 
-        self.name = theme
-        self.theme = name
+        self.name = name
+        self.theme = theme
         self.available = False
 
     def gen_new_name(self):
@@ -60,18 +61,44 @@ class Name:
         self.mk_url() # Populate attributes
         ans = False # Assume the name is taken
         url = self.url
+        
+        request = urllib.request.Request(url)
+        try:
+            urllib.request.urlopen(request)
+            available = False
+        except urllib.error.HTTPError as e:
+            available = True
 
-        status = urllib.request.urlopen(url)
-
-        print(status)
-
+        self.available = available
         pass
 
     def mk_url(self):
         """Construct the PyPI URL for the chosen name."""
         name = self.name
-        base = 'https://pypi.org/pa'
+        base = 'https://pypi.org/project/'
         
         self.url = urllib.parse.urljoin(base, name)
         pass
 
+def main():
+    """
+    This function gets run when this module is run directly.
+
+    Takes no arguments, and returns None.
+    """
+
+    while (True): # UI Loop
+        print('\n#=================#')
+        input_name = input('Input project name:\n')
+        name = Name(name=input_name)
+        name.check()
+        
+        if (name.available):
+            print(f'{name.name} is available!')
+        else:
+            print(f'{name.name} is taken.')
+
+    return None
+
+if __name__ == "__main__":
+    main()
