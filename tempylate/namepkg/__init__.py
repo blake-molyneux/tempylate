@@ -1,10 +1,1 @@
-"""
-====================
-Package Name Checker
-====================
-
-
-
-"""
-
-from namepkg import namepkg
+from namepkg.namepkg import Name

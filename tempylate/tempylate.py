@@ -28,7 +28,7 @@ import pathlib
 import time
 import json
 
-from namepkg.namepkg import Name
+from namepkg import Name
 
 def main():
     test_name = Name(name='sailor')
