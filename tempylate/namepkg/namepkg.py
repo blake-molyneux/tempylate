@@ -37,7 +37,7 @@ class Name:
     save : bool, Optional
         If set to true, any json data recieved will be saved. False by
         default.
-    out : pathlib.Path, Optional
+    path : pathlib.Path, Optional
         Specifies the dir to save the output json. Defaults to __file__.
 
     Attributes
@@ -51,51 +51,70 @@ class Name:
     save : bool
         If set to true, any json data recieved will be saved. False by
         default.
-    out : pathlib.Path
+    path : pathlib.Path
         Specifies the dir to save the output json. Defaults to __file__.
-
+    pyload : dict
+        The raw dictionary data returned from this pypi request. Only 
+        exists if the package name exists.
+    cached : dict
+        The raw dictionary data cached from pypi. Contains all previous
+        payloads and names previously searched while save was enabled.
     """
     def __init__(self, 
                  theme : str = '', 
                  name : str = '',
                  save : bool = False, 
-                 out : pathlib.Path() = (pathlib.Path(
+                 path : pathlib.Path() = (pathlib.Path(
                        os.path.dirname(os.path.realpath(__file__)))
                        / pathlib.Path('data/cache.json'))):
         self.name = name
         self.theme = theme
         self.save = save
-        self.out = out
+        self.path = path
         self.available = False
+        self.payload = {}
+        self.cached = {}
 
     def gen_new_name(self):
         """Make a new name."""
 
-        raise NotImplementedError()
+        raise NotImplementedError('Sorry this function is not built yet')
         pass
 
     def check(self):
         """Check to see if the name is available on PyPI."""
         self.mk_url() # Populate attributes
-        ans = False # Assume the name is taken
+        available = True # Assume the name is available
         url = self.url
         
         request = urllib.request.Request(url)
-        try:
-            # Attempt to get a packages json data from pypi
-            with urllib.request.urlopen(request) as f:
-                dict_in = json.loads(f.read().decode("utf-8"))
-            
-            if (self.save):
-                # Output the result to a local file
-                output_path = self.out
-                with open(output_path, 'a') as f:
-                    f.write(json.dumps(dict_in, sort_keys=True, indent=4))
 
-            available = False # Package is used by someone
+        try:
+            self.read()
+            if self.name in self.cached:
+                print("It's in the cache.")
+                available = False
+            pass
+        except FileNotFoundError as error:
+            pass
         
-        except urllib.error.HTTPError as e:
-            available = True  # Package is available
+        if available:
+            try:
+                # Attempt to get a packages json data from pypi
+                with urllib.request.urlopen(request) as f:
+                    self.payload = json.loads(f.read().decode('utf-8'))
+                    self.payload = {self.name : self.payload}
+
+                if self.save:
+                    self.write()
+
+                available = False # Package is used by someone
+                pass
+            
+            except urllib.error.HTTPError as error:
+                error.code
+                available = True  # Package is available
+                pass
 
         self.available = available
         pass
@@ -109,6 +128,20 @@ class Name:
         url = urllib.parse.urljoin(url_base, url_suffix)
 
         self.url = url
+        pass
+
+    def write(self):
+        """Save the request payload to a file."""
+        # Output the result to a local file
+        data = {**self.cached, **self.payload}
+        with open(self.path, 'w') as f:
+            f.write(json.dumps(data, sort_keys=True, indent=4))
+        pass
+    
+    def read(self):
+        """Load a saved payload file."""
+        with open(self.path, 'r') as f:
+            self.cached = json.loads(f.read())
         pass
 
 def main():
@@ -129,6 +162,7 @@ def main():
             print(f'{name.name} is available!')
         else:
             print(f'{name.name} is taken.')
+        print('#=================#\n')
 
     return None
 
