@@ -50,6 +50,8 @@ class Name:
     number : int, Optional
         If a new name is requested, this sets how many suggestions are
         to be provided.
+    start : str, Optional
+        A starting string upon which to add aditional letters/text.
     save : bool, Optional
         If set to true, any json data recieved will be saved. False by
         default.
@@ -58,6 +60,10 @@ class Name:
     delay : int
         Sets the maximum possible time to wait between PyPI queries.
         Default is 3s.
+    min : int
+        Minimum character length to select package name set. Default 3.
+    max : int
+        Maximum character length to select package name set. Default 10.
 
     Attributes
     ----------
@@ -86,8 +92,11 @@ class Name:
                  number : int = 3,
                  name : str = '',
                  output : list = [],
+                 min : int = 3,
+                 max : int = 10,
                  delay : int = 3,
-                 save : bool = False, 
+                 start : str = '',
+                 save : bool = True, 
                  path : pathlib.Path() = (pathlib.Path(
                        os.path.dirname(os.path.realpath(__file__)))
                        / pathlib.Path('data/cache.json'))):
@@ -96,6 +105,9 @@ class Name:
         self.number = number
         self.output = output
         self.save = save
+        self.min = min
+        self.max = max
+        self.start = start
         self.delay = delay
         self.path = path
         self.available = False
@@ -114,9 +126,12 @@ class Name:
 
         else:
             # Create a random theme
-            alph = 'abcdefghijklmnopqrstuvwxyz'
-            theme = alph[random.randrange(26)]
-            theme += '?'*random.randrange(3, 10)
+            if (self.start == ''):
+                alph = 'abcdefghijklmnopqrstuvwxyz'
+                theme = alph[random.randrange(26)]
+            else:
+                theme = self.start
+            theme += '?'*random.randrange(self.min, self.max)
             url_query = f'sp={theme}'
             pass
 
@@ -194,7 +209,7 @@ class Name:
 
     def mk_pypi_url(self):
         """Construct the PyPI URL for the chosen name."""
-        name = self.name.strip()
+        name = self.name.replace(' ', '')
         url_base = 'https://pypi.org/pypi/'
 
         url_suffix = f'{name}/json'
