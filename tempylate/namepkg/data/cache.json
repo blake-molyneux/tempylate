@@ -32695,6 +32695,693 @@
             }
         ]
     },
+    "familiar": {
+        "info": {
+            "author": "Jeff Salisbury",
+            "author_email": "pip.familiar@gmail.com",
+            "bugtrack_url": null,
+            "classifiers": [
+                "Development Status :: 2 - Pre-Alpha",
+                "Environment :: Web Environment",
+                "Framework :: Django",
+                "Intended Audience :: Developers",
+                "License :: OSI Approved :: MIT License",
+                "Natural Language :: English",
+                "Operating System :: OS Independent",
+                "Programming Language :: Python :: 2",
+                "Programming Language :: Python :: 2.7",
+                "Programming Language :: Python :: 3",
+                "Programming Language :: Python :: 3.3",
+                "Programming Language :: Python :: 3.4",
+                "Topic :: Games/Entertainment :: Role-Playing",
+                "Topic :: Internet :: WWW/HTTP"
+            ],
+            "description": "",
+            "description_content_type": "",
+            "docs_url": null,
+            "download_url": "",
+            "downloads": {
+                "last_day": -1,
+                "last_month": -1,
+                "last_week": -1
+            },
+            "home_page": "https://github.com/JDSalisbury/familiar",
+            "keywords": "",
+            "license": "MIT",
+            "maintainer": "",
+            "maintainer_email": "",
+            "name": "familiar",
+            "package_url": "https://pypi.org/project/familiar/",
+            "platform": "",
+            "project_url": "https://pypi.org/project/familiar/",
+            "project_urls": {
+                "Homepage": "https://github.com/JDSalisbury/familiar"
+            },
+            "release_url": "https://pypi.org/project/familiar/0.1.4/",
+            "requires_dist": [
+                "Django (==3.0.4)",
+                "djangorestframework (==3.11.0)"
+            ],
+            "requires_python": "",
+            "summary": "Dungeons and Dragons helper functions",
+            "version": "0.1.4",
+            "yanked": false,
+            "yanked_reason": null
+        },
+        "last_serial": 6867991,
+        "releases": {
+            "0.0.1": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "78be90d9348e38e30bdef2e1a9f5890e",
+                        "sha256": "ceff4064658889968eebca4eb9e4ab32ec0c951b4b398c5a6027f9186a2fd708"
+                    },
+                    "downloads": -1,
+                    "filename": "familiar-0.0.1-py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "78be90d9348e38e30bdef2e1a9f5890e",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py3",
+                    "requires_python": null,
+                    "size": 2491,
+                    "upload_time": "2020-03-16T23:19:21",
+                    "upload_time_iso_8601": "2020-03-16T23:19:21.641792Z",
+                    "url": "https://files.pythonhosted.org/packages/2a/ed/a2762af12ad9c945c389db696ed23dcb97ac6e2c2c6b58f1574103fdba1b/familiar-0.0.1-py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "00afd8c746f4aca75276baddcbc09410",
+                        "sha256": "31254ea2041ffdc68d6dab2e4c328959713ddfe5e22b79b7777fab06a57363c7"
+                    },
+                    "downloads": -1,
+                    "filename": "familiar-0.0.1.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "00afd8c746f4aca75276baddcbc09410",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 5332,
+                    "upload_time": "2020-03-16T23:19:23",
+                    "upload_time_iso_8601": "2020-03-16T23:19:23.700652Z",
+                    "url": "https://files.pythonhosted.org/packages/71/f9/1d2160b0a517c43d50441b40c257c497a9e6ac4e156199658fd18647131d/familiar-0.0.1.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
+            "0.0.2": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "3a3ee0f75da2a74608c9dee305a88a14",
+                        "sha256": "65bfa091df96e572ad2b1077b0fb445a26a46099ce61280f6b98242b981a288d"
+                    },
+                    "downloads": -1,
+                    "filename": "familiar-0.0.2-py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "3a3ee0f75da2a74608c9dee305a88a14",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py3",
+                    "requires_python": null,
+                    "size": 2531,
+                    "upload_time": "2020-03-17T14:27:11",
+                    "upload_time_iso_8601": "2020-03-17T14:27:11.752165Z",
+                    "url": "https://files.pythonhosted.org/packages/ff/cf/ec13d5e8d129d58eff9ed9199304f469418b1190519b2cacd416c73f7354/familiar-0.0.2-py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "0079e51a358b915dd95e8abe57694713",
+                        "sha256": "777dbe832241d6a7bc18542adfd250dcf77b6779e485b61eb4600c35d31482db"
+                    },
+                    "downloads": -1,
+                    "filename": "familiar-0.0.2.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "0079e51a358b915dd95e8abe57694713",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 5520,
+                    "upload_time": "2020-03-17T14:27:12",
+                    "upload_time_iso_8601": "2020-03-17T14:27:12.661403Z",
+                    "url": "https://files.pythonhosted.org/packages/7b/a5/014b949f7d9400001d67bb45d0e2d7fc0ea0e25b4018bc92ce67168c1b06/familiar-0.0.2.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
+            "0.0.3": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "feb41a0e189801adc39f170e2c94ce60",
+                        "sha256": "ce684193dc8e4a82ad713eed4c6e0bef47d4a4fff3166c207f615d3668b48db6"
+                    },
+                    "downloads": -1,
+                    "filename": "familiar-0.0.3-py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "feb41a0e189801adc39f170e2c94ce60",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py3",
+                    "requires_python": null,
+                    "size": 2596,
+                    "upload_time": "2020-03-23T14:42:56",
+                    "upload_time_iso_8601": "2020-03-23T14:42:56.436235Z",
+                    "url": "https://files.pythonhosted.org/packages/8e/44/1b89a895a485921dac328d71190290fdd41dea6ce33c5464047d28c32e18/familiar-0.0.3-py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "ef3bbf64e1fc9021e6dcc0d0fe659c24",
+                        "sha256": "320066390d4abe13e1c3b3f6025aa5f6eea670130b19807d9ea47a357550faa7"
+                    },
+                    "downloads": -1,
+                    "filename": "familiar-0.0.3.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "ef3bbf64e1fc9021e6dcc0d0fe659c24",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 5713,
+                    "upload_time": "2020-03-23T14:42:57",
+                    "upload_time_iso_8601": "2020-03-23T14:42:57.889576Z",
+                    "url": "https://files.pythonhosted.org/packages/cb/21/d2328ab0324722952700207b4f654951e0903867f5999c6b4d4bdc72dccb/familiar-0.0.3.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
+            "0.0.4": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "eaa33e32c0cb7d18c69539ff9093d529",
+                        "sha256": "67a458d7c81571e1dfb3db6e9cb19b02e7d3b2dafc1730f132c7879b0811d2eb"
+                    },
+                    "downloads": -1,
+                    "filename": "familiar-0.0.4-py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "eaa33e32c0cb7d18c69539ff9093d529",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py3",
+                    "requires_python": null,
+                    "size": 2591,
+                    "upload_time": "2020-03-23T14:54:32",
+                    "upload_time_iso_8601": "2020-03-23T14:54:32.492650Z",
+                    "url": "https://files.pythonhosted.org/packages/bb/16/314aef68418cde8677c18d0d2900041ad05d699417c5433c85d3b624dabe/familiar-0.0.4-py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "c35c0a1f266f915c9b025c73fab2a436",
+                        "sha256": "c7f186e7996091a60df0ce5f9dd04ab91b022b61148bdf767eaef00b756e4d8f"
+                    },
+                    "downloads": -1,
+                    "filename": "familiar-0.0.4.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "c35c0a1f266f915c9b025c73fab2a436",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 5704,
+                    "upload_time": "2020-03-23T14:54:33",
+                    "upload_time_iso_8601": "2020-03-23T14:54:33.951858Z",
+                    "url": "https://files.pythonhosted.org/packages/2c/f2/32cae5c842c8de3a8750850293cbbb8edabaf041961492972e1e865cbbfb/familiar-0.0.4.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
+            "0.0.5": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "c61dad9c092e2e53dffe9168edb1f44c",
+                        "sha256": "dd8d06cc6f10ff537fbed90648e0787d648b09d1d7f3de4f7fcb4939e3620b3d"
+                    },
+                    "downloads": -1,
+                    "filename": "familiar-0.0.5-py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "c61dad9c092e2e53dffe9168edb1f44c",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py3",
+                    "requires_python": null,
+                    "size": 2593,
+                    "upload_time": "2020-03-23T16:13:05",
+                    "upload_time_iso_8601": "2020-03-23T16:13:05.237817Z",
+                    "url": "https://files.pythonhosted.org/packages/83/2f/b3be7e3595afc11ba27a36cbc6573e653d2c82c97a7c9e801d1c7202d334/familiar-0.0.5-py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "856c6a46c46e303555a43096c4184e4c",
+                        "sha256": "69488a26315674e4c83444516caba3c26ae6a94e707f3794ab9ef38fd49d7325"
+                    },
+                    "downloads": -1,
+                    "filename": "familiar-0.0.5.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "856c6a46c46e303555a43096c4184e4c",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 5705,
+                    "upload_time": "2020-03-23T16:13:06",
+                    "upload_time_iso_8601": "2020-03-23T16:13:06.606873Z",
+                    "url": "https://files.pythonhosted.org/packages/59/d3/05c297cfcd12644a6b697e813442346c136fd007d0e4cbefddf75e89a93b/familiar-0.0.5.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
+            "0.0.6": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "df5a646a649d725b664ddb563d133559",
+                        "sha256": "7227acb59bcdb57313863715cd6fd5445e4a33430f4b98760ad6ed594d5b114b"
+                    },
+                    "downloads": -1,
+                    "filename": "familiar-0.0.6-py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "df5a646a649d725b664ddb563d133559",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py3",
+                    "requires_python": null,
+                    "size": 2592,
+                    "upload_time": "2020-03-23T16:14:16",
+                    "upload_time_iso_8601": "2020-03-23T16:14:16.170164Z",
+                    "url": "https://files.pythonhosted.org/packages/85/28/a4542c839df4f803e5febf0f4155b4d4efc9afe2f1234789ee8b620a6f39/familiar-0.0.6-py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "b39f018e58fbbf82fd25bfb996d2891a",
+                        "sha256": "fd8ca947a9fadaede8bcc53e15d1af8b9f6677279eb25eada573d632a9336b90"
+                    },
+                    "downloads": -1,
+                    "filename": "familiar-0.0.6.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "b39f018e58fbbf82fd25bfb996d2891a",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 5708,
+                    "upload_time": "2020-03-23T16:14:17",
+                    "upload_time_iso_8601": "2020-03-23T16:14:17.315264Z",
+                    "url": "https://files.pythonhosted.org/packages/a5/2f/61f3821d74df4088b5c71262e0a1db64a6be44a4d598f44d328571d1114b/familiar-0.0.6.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
+            "0.0.7": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "8def53fe5f9204a6e2f7d25a7c3c2e54",
+                        "sha256": "fc297ed4a526c98a7460ba7516e63da82d4a1222800e8013382227f381f26649"
+                    },
+                    "downloads": -1,
+                    "filename": "familiar-0.0.7-py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "8def53fe5f9204a6e2f7d25a7c3c2e54",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py3",
+                    "requires_python": null,
+                    "size": 3433,
+                    "upload_time": "2020-03-23T16:21:04",
+                    "upload_time_iso_8601": "2020-03-23T16:21:04.806563Z",
+                    "url": "https://files.pythonhosted.org/packages/5c/ef/855743971fc576e75c9f463ce854513b40330cb9bd062571f8d1e7ef9bcf/familiar-0.0.7-py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "cd4eacca1c81677c9ef9b8cd1b1e29d9",
+                        "sha256": "b1a925940f40ba9a553ab75b8cd1577a6a1ac63fcc7bdd26455eb90481da96ee"
+                    },
+                    "downloads": -1,
+                    "filename": "familiar-0.0.7.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "cd4eacca1c81677c9ef9b8cd1b1e29d9",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 5982,
+                    "upload_time": "2020-03-23T16:21:06",
+                    "upload_time_iso_8601": "2020-03-23T16:21:06.089984Z",
+                    "url": "https://files.pythonhosted.org/packages/43/d6/04da38fb612d30b40b891fe5fd414aecf705dbb145ce81b8906218c44edb/familiar-0.0.7.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
+            "0.0.8": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "df0de9bea2e5965f14037c5c12403d7c",
+                        "sha256": "e9d7309f1ca26479ba6161ba1bf39285f8b34e1f6b2f2ad2d7643a797f06882e"
+                    },
+                    "downloads": -1,
+                    "filename": "familiar-0.0.8-py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "df0de9bea2e5965f14037c5c12403d7c",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py3",
+                    "requires_python": null,
+                    "size": 3424,
+                    "upload_time": "2020-03-23T16:26:30",
+                    "upload_time_iso_8601": "2020-03-23T16:26:30.301780Z",
+                    "url": "https://files.pythonhosted.org/packages/ea/2b/5f0a0799f7380baeb039121bb92cc50209f34b41f2a498f81fc9a473eba3/familiar-0.0.8-py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "b11f858e1b66e46cf5b510d5167a0b0b",
+                        "sha256": "d296b14ce60c474e5ced46206bf20d6e008cbaa8993426fe22473eab999159de"
+                    },
+                    "downloads": -1,
+                    "filename": "familiar-0.0.8.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "b11f858e1b66e46cf5b510d5167a0b0b",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 5978,
+                    "upload_time": "2020-03-23T16:26:31",
+                    "upload_time_iso_8601": "2020-03-23T16:26:31.466782Z",
+                    "url": "https://files.pythonhosted.org/packages/7d/ca/780c5b1896be13c75a9d44623977b80ecc99cfa0f10e833166c79e63aaa9/familiar-0.0.8.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
+            "0.0.9": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "a76cc7e58f2d78911237f02065b25289",
+                        "sha256": "3a423a0ccfb5d5d0b3e77de1e0ed1dd0164ecfe33ea8a528d076cbe84cff3ee9"
+                    },
+                    "downloads": -1,
+                    "filename": "familiar-0.0.9-py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "a76cc7e58f2d78911237f02065b25289",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py3",
+                    "requires_python": null,
+                    "size": 3430,
+                    "upload_time": "2020-03-23T17:21:43",
+                    "upload_time_iso_8601": "2020-03-23T17:21:43.127289Z",
+                    "url": "https://files.pythonhosted.org/packages/98/c8/c3d6d73a0ef2cfc4c73a6b25bd142e2d5063936768eb801f511766a097c8/familiar-0.0.9-py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "32eeff891bb3e39326b5ad3304e3ce4b",
+                        "sha256": "96d00a87e1a0b473d4c5e4126d98028a99a604f03eaf0d19a8339954072b1aea"
+                    },
+                    "downloads": -1,
+                    "filename": "familiar-0.0.9.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "32eeff891bb3e39326b5ad3304e3ce4b",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 5527,
+                    "upload_time": "2020-03-23T17:21:44",
+                    "upload_time_iso_8601": "2020-03-23T17:21:44.437729Z",
+                    "url": "https://files.pythonhosted.org/packages/e8/fc/37873ca3d3784187f23bf151d052d74861457ca58fd5eb2fddd7db97dbc5/familiar-0.0.9.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
+            "0.1.0": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "085f505151478eeaf204fc5f5d8bf758",
+                        "sha256": "0e0c16ed0d842a30609e44ade2959e09d593b03b020c7a2ac8b97a304575c54b"
+                    },
+                    "downloads": -1,
+                    "filename": "familiar-0.1.0-py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "085f505151478eeaf204fc5f5d8bf758",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py3",
+                    "requires_python": null,
+                    "size": 4360,
+                    "upload_time": "2020-03-23T18:11:42",
+                    "upload_time_iso_8601": "2020-03-23T18:11:42.799070Z",
+                    "url": "https://files.pythonhosted.org/packages/71/20/30f6c35588a14f5d28d4338def9e682553af301847b82e802155b23ac094/familiar-0.1.0-py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "489b638deb2c630b2f8383a3ec26197e",
+                        "sha256": "25798a7d3ee4ab95dd4c7177a41f2c1f58efa3df71dbdf857875bbba97310271"
+                    },
+                    "downloads": -1,
+                    "filename": "familiar-0.1.0.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "489b638deb2c630b2f8383a3ec26197e",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 6285,
+                    "upload_time": "2020-03-23T18:11:43",
+                    "upload_time_iso_8601": "2020-03-23T18:11:43.736655Z",
+                    "url": "https://files.pythonhosted.org/packages/66/c1/c04f5beb7271201fed5bdba86c36428883f3cbd657c5274c8f2fa57c00fa/familiar-0.1.0.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
+            "0.1.1": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "a3c9722da0bd10a9ea1762ef50aac441",
+                        "sha256": "6979c0b3af940230aab594fa68002375c6a9162052704a6656a2c6647b5ac8af"
+                    },
+                    "downloads": -1,
+                    "filename": "familiar-0.1.1-py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "a3c9722da0bd10a9ea1762ef50aac441",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py3",
+                    "requires_python": null,
+                    "size": 5924,
+                    "upload_time": "2020-03-23T18:19:37",
+                    "upload_time_iso_8601": "2020-03-23T18:19:37.708970Z",
+                    "url": "https://files.pythonhosted.org/packages/02/95/ee1447e588cd4c022628398ff8bb313474e016f9ce62b401a56ae3ab3b6b/familiar-0.1.1-py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "1645f8ce12c2d62e8069ee4b003025c6",
+                        "sha256": "704950fdd74d43736bd4c3b0f0787ed3a81c2807589b529a24706f1d272dece1"
+                    },
+                    "downloads": -1,
+                    "filename": "familiar-0.1.1.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "1645f8ce12c2d62e8069ee4b003025c6",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 7065,
+                    "upload_time": "2020-03-23T18:19:39",
+                    "upload_time_iso_8601": "2020-03-23T18:19:39.049616Z",
+                    "url": "https://files.pythonhosted.org/packages/10/fc/87863564138d2e80f33b1a1c2a7a31ad80d902138d9374660e6aa79e15dd/familiar-0.1.1.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
+            "0.1.2": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "a4479c4ab4dccc39bc820722091edb4b",
+                        "sha256": "11581398b25f75cbe9391041de9ac8e33dd77d021a79fd9fba5ae5d0e375cf4a"
+                    },
+                    "downloads": -1,
+                    "filename": "familiar-0.1.2-py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "a4479c4ab4dccc39bc820722091edb4b",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py3",
+                    "requires_python": null,
+                    "size": 5926,
+                    "upload_time": "2020-03-23T18:31:52",
+                    "upload_time_iso_8601": "2020-03-23T18:31:52.519676Z",
+                    "url": "https://files.pythonhosted.org/packages/89/aa/c8804a1c6dd900c610f5a00331261e73b3f76c4669088bf199bf2835fcd1/familiar-0.1.2-py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "5963879d4066e8a2bf9df5603f445704",
+                        "sha256": "0ab01204f97bf24f694fa95d84382585862874bfaa223fa281392e7a17bafdc1"
+                    },
+                    "downloads": -1,
+                    "filename": "familiar-0.1.2.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "5963879d4066e8a2bf9df5603f445704",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 7069,
+                    "upload_time": "2020-03-23T18:31:54",
+                    "upload_time_iso_8601": "2020-03-23T18:31:54.029262Z",
+                    "url": "https://files.pythonhosted.org/packages/53/bc/5c24bb363300e02be13a725e3f9f82583250fe0c1a9ab9f0de6c4ef904df/familiar-0.1.2.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
+            "0.1.3": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "75f3cd28b48d89103b7b91752047ee7f",
+                        "sha256": "96439dc972b17b84516f59b5df5a1bc89fdc6c01eef80ca3a3d3bb2a5f162eae"
+                    },
+                    "downloads": -1,
+                    "filename": "familiar-0.1.3-py2.py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "75f3cd28b48d89103b7b91752047ee7f",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py2.py3",
+                    "requires_python": null,
+                    "size": 5976,
+                    "upload_time": "2020-03-23T19:03:31",
+                    "upload_time_iso_8601": "2020-03-23T19:03:31.438029Z",
+                    "url": "https://files.pythonhosted.org/packages/5d/4b/e83a3360019c35a1df091b071bd08f33b009a628476d15bf0ea69f90a1ff/familiar-0.1.3-py2.py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "8e3269629c0f43b0acdb14aa67dce56a",
+                        "sha256": "3ea13e1b9286de3b4d4538b33ff26b34fabb915bae01c9de62e2e32ac5922a43"
+                    },
+                    "downloads": -1,
+                    "filename": "familiar-0.1.3.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "8e3269629c0f43b0acdb14aa67dce56a",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 7097,
+                    "upload_time": "2020-03-23T19:03:32",
+                    "upload_time_iso_8601": "2020-03-23T19:03:32.528419Z",
+                    "url": "https://files.pythonhosted.org/packages/6e/3d/ab51d8888b5a3192221a900ac3e0cc6510c065663d305ed9dab5b4dbd45b/familiar-0.1.3.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
+            "0.1.4": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "c3159f55447238550a7b07086a0cbe63",
+                        "sha256": "c52eeb92e2204e4636d5c9d330921322decab491d0848c9283f069f2d6a3daa4"
+                    },
+                    "downloads": -1,
+                    "filename": "familiar-0.1.4-py2.py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "c3159f55447238550a7b07086a0cbe63",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py2.py3",
+                    "requires_python": null,
+                    "size": 6774,
+                    "upload_time": "2020-03-23T19:55:47",
+                    "upload_time_iso_8601": "2020-03-23T19:55:47.648289Z",
+                    "url": "https://files.pythonhosted.org/packages/63/01/f4440be8dec5bd97bdb32b437798a5168f12a9d58e4dfec0b81d8bc514a0/familiar-0.1.4-py2.py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "06fdc8eec7b5b9cb7075a04f92ddc030",
+                        "sha256": "08c06cae609cfc4a4ad9855aaa7bcca0813faef7e7a170a2e2768aa02b63a2c6"
+                    },
+                    "downloads": -1,
+                    "filename": "familiar-0.1.4.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "06fdc8eec7b5b9cb7075a04f92ddc030",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 6706,
+                    "upload_time": "2020-03-23T19:55:48",
+                    "upload_time_iso_8601": "2020-03-23T19:55:48.967768Z",
+                    "url": "https://files.pythonhosted.org/packages/2e/79/f275ae76cafaa7eb97d2dd94a5057ab74b32ae9cefa288530be1899c5818/familiar-0.1.4.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ]
+        },
+        "urls": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "c3159f55447238550a7b07086a0cbe63",
+                    "sha256": "c52eeb92e2204e4636d5c9d330921322decab491d0848c9283f069f2d6a3daa4"
+                },
+                "downloads": -1,
+                "filename": "familiar-0.1.4-py2.py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "c3159f55447238550a7b07086a0cbe63",
+                "packagetype": "bdist_wheel",
+                "python_version": "py2.py3",
+                "requires_python": null,
+                "size": 6774,
+                "upload_time": "2020-03-23T19:55:47",
+                "upload_time_iso_8601": "2020-03-23T19:55:47.648289Z",
+                "url": "https://files.pythonhosted.org/packages/63/01/f4440be8dec5bd97bdb32b437798a5168f12a9d58e4dfec0b81d8bc514a0/familiar-0.1.4-py2.py3-none-any.whl",
+                "yanked": false,
+                "yanked_reason": null
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "06fdc8eec7b5b9cb7075a04f92ddc030",
+                    "sha256": "08c06cae609cfc4a4ad9855aaa7bcca0813faef7e7a170a2e2768aa02b63a2c6"
+                },
+                "downloads": -1,
+                "filename": "familiar-0.1.4.tar.gz",
+                "has_sig": false,
+                "md5_digest": "06fdc8eec7b5b9cb7075a04f92ddc030",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 6706,
+                "upload_time": "2020-03-23T19:55:48",
+                "upload_time_iso_8601": "2020-03-23T19:55:48.967768Z",
+                "url": "https://files.pythonhosted.org/packages/2e/79/f275ae76cafaa7eb97d2dd94a5057ab74b32ae9cefa288530be1899c5818/familiar-0.1.4.tar.gz",
+                "yanked": false,
+                "yanked_reason": null
+            }
+        ]
+    },
     "fashion": {
         "info": {
             "author": "Conner Bryan",
@@ -32736,6 +33423,377 @@
             "0.0.1": []
         },
         "urls": []
+    },
+    "feedback": {
+        "info": {
+            "author": "David Taylor",
+            "author_email": "djtaylor13@gmail.com",
+            "bugtrack_url": null,
+            "classifiers": [
+                "Development Status :: 3 - Alpha",
+                "Environment :: Console",
+                "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+                "Natural Language :: English",
+                "Operating System :: POSIX",
+                "Programming Language :: Python",
+                "Topic :: Software Development :: User Interfaces",
+                "Topic :: Terminals"
+            ],
+            "description": "# Feedback Manager\n\nA simple Python module used to display different categories of messages on the command line, as well as capturing user input.",
+            "description_content_type": null,
+            "docs_url": null,
+            "download_url": "UNKNOWN",
+            "downloads": {
+                "last_day": -1,
+                "last_month": -1,
+                "last_week": -1
+            },
+            "home_page": "http://github.com/djtaylor/python-feedback",
+            "keywords": "feedback terminal shell ui output input",
+            "license": "GPLv3",
+            "maintainer": null,
+            "maintainer_email": null,
+            "name": "feedback",
+            "package_url": "https://pypi.org/project/feedback/",
+            "platform": "UNKNOWN",
+            "project_url": "https://pypi.org/project/feedback/",
+            "project_urls": {
+                "Download": "UNKNOWN",
+                "Homepage": "http://github.com/djtaylor/python-feedback"
+            },
+            "release_url": "https://pypi.org/project/feedback/0.1.post7/",
+            "requires_dist": null,
+            "requires_python": null,
+            "summary": "Feedback and user input manager",
+            "version": "0.1.post7",
+            "yanked": false,
+            "yanked_reason": null
+        },
+        "last_serial": 1685775,
+        "releases": {
+            "0.1": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "7d8f17d5ad2ffc8c21a19a9181b9c3b3",
+                        "sha256": "b1d979ddf8b40d3067ddd941655e6c0df2141aef25e032e10e7d44f61b4d8500"
+                    },
+                    "downloads": -1,
+                    "filename": "feedback-0.1-py2.py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "7d8f17d5ad2ffc8c21a19a9181b9c3b3",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py2.py3",
+                    "requires_python": null,
+                    "size": 5032,
+                    "upload_time": "2015-07-23T15:02:30",
+                    "upload_time_iso_8601": "2015-07-23T15:02:30.521386Z",
+                    "url": "https://files.pythonhosted.org/packages/09/b9/2deedeec2fc39b81dfb84fbaf3659c816cc390e6eebd36dd4712202e1900/feedback-0.1-py2.py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "0c17cf0a6075ea1948a6932dbe9f751b",
+                        "sha256": "f83932ba6af45173d896dbadfe9a504d04ec8cecfc14cee8bbac26ae3712698f"
+                    },
+                    "downloads": -1,
+                    "filename": "feedback-0.1.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "0c17cf0a6075ea1948a6932dbe9f751b",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 3300,
+                    "upload_time": "2015-07-23T15:02:34",
+                    "upload_time_iso_8601": "2015-07-23T15:02:34.058710Z",
+                    "url": "https://files.pythonhosted.org/packages/70/9c/4c6b3178ed1f268e5e698796866b585b49bf04ce38e152607a51b2033d17/feedback-0.1.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
+            "0.1-1": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "f84f11b95bf8765dceb6e2a530ae8918",
+                        "sha256": "1034058dccc1cc9bca39b771497c67f18e0f9a5b9bbcf2d366bfd3f3016c7226"
+                    },
+                    "downloads": -1,
+                    "filename": "feedback-0.1_1-py2.py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "f84f11b95bf8765dceb6e2a530ae8918",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py2.py3",
+                    "requires_python": null,
+                    "size": 5268,
+                    "upload_time": "2015-07-23T20:11:23",
+                    "upload_time_iso_8601": "2015-07-23T20:11:23.990899Z",
+                    "url": "https://files.pythonhosted.org/packages/4b/68/e7dd0208e932f4d4ea442ca9793bfe3a6cb2233ec19bae9252ce71742e6d/feedback-0.1_1-py2.py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
+            "0.1-2": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "d08bb5009bce2f7ff0cd2f1121e9d509",
+                        "sha256": "1ba1983e55f8bb7f98304a03712209d1709e77c1dd8cd395a2b139592ce55492"
+                    },
+                    "downloads": -1,
+                    "filename": "feedback-0.1_2-py2.py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "d08bb5009bce2f7ff0cd2f1121e9d509",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py2.py3",
+                    "requires_python": null,
+                    "size": 4937,
+                    "upload_time": "2015-08-08T19:37:46",
+                    "upload_time_iso_8601": "2015-08-08T19:37:46.638341Z",
+                    "url": "https://files.pythonhosted.org/packages/8e/9f/1647e4fb6aa5c1e928713033853cc55c9526a8a2beef73c3d455fa8aa880/feedback-0.1_2-py2.py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
+            "0.1.post3": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "019827361e86ed5d78d3b62437c82c3d",
+                        "sha256": "ffe42cdcd46064dc569a6e3d5352db8ffb932b5ddd85fc83f2e5b835d18c854d"
+                    },
+                    "downloads": -1,
+                    "filename": "feedback-0.1.post3-py2.py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "019827361e86ed5d78d3b62437c82c3d",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "2.7",
+                    "requires_python": null,
+                    "size": 5058,
+                    "upload_time": "2015-08-11T19:38:04",
+                    "upload_time_iso_8601": "2015-08-11T19:38:04.058990Z",
+                    "url": "https://files.pythonhosted.org/packages/4b/e3/60b2e223adab2582df68fa4d90effc754faff0cdf60411a602ca9d8775de/feedback-0.1.post3-py2.py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "f09e4ba0632fd9b8dcfa2a5115f7ac8d",
+                        "sha256": "810d7d603b335748cd65dd8f975586fb7e897726aaba2fd6538c6ce39cd49c67"
+                    },
+                    "downloads": -1,
+                    "filename": "feedback-0.1.post3.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "f09e4ba0632fd9b8dcfa2a5115f7ac8d",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 3318,
+                    "upload_time": "2015-08-11T19:37:35",
+                    "upload_time_iso_8601": "2015-08-11T19:37:35.081930Z",
+                    "url": "https://files.pythonhosted.org/packages/e6/3e/c59d955140ddbfef4c2e830dfe5f93bf39e961429ec86376f56044b3988f/feedback-0.1.post3.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
+            "0.1.post4": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "bf9053e2c561c1a3333af13396209385",
+                        "sha256": "8d4f1d5567201569d46258ea5fd76c852e3b45f4b5795eb4200b6e55e44cab38"
+                    },
+                    "downloads": -1,
+                    "filename": "feedback-0.1.post4-py2.py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "bf9053e2c561c1a3333af13396209385",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "2.7",
+                    "requires_python": null,
+                    "size": 5061,
+                    "upload_time": "2015-08-12T19:09:28",
+                    "upload_time_iso_8601": "2015-08-12T19:09:28.545147Z",
+                    "url": "https://files.pythonhosted.org/packages/df/c5/db8ba5f3fa0a7264637d617005f1152326016f0b91255a64d5aa2176dc11/feedback-0.1.post4-py2.py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
+            "0.1.post5": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "1702c167da7e4e4384cebdbd414c0845",
+                        "sha256": "4160555d5b894c588fa4eedf43ace48b1f31603ac82bec5f6e63e4bc574c7778"
+                    },
+                    "downloads": -1,
+                    "filename": "feedback-0.1.post5-py2.py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "1702c167da7e4e4384cebdbd414c0845",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "2.7",
+                    "requires_python": null,
+                    "size": 5062,
+                    "upload_time": "2015-08-13T17:41:23",
+                    "upload_time_iso_8601": "2015-08-13T17:41:23.810632Z",
+                    "url": "https://files.pythonhosted.org/packages/81/83/d68c8cb5d78ace65300e1b9753b74717f7e17221bf36cb1f2412f84508f9/feedback-0.1.post5-py2.py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
+            "0.1.post6": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "6960828132e182afe80d15e4ac3b1fa1",
+                        "sha256": "e1177f75d55869ab0e7b26324b76a672d31267378a9ce7f2311d744d8d0ddc44"
+                    },
+                    "downloads": -1,
+                    "filename": "feedback-0.1.post6-py2.py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "6960828132e182afe80d15e4ac3b1fa1",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "2.7",
+                    "requires_python": null,
+                    "size": 5208,
+                    "upload_time": "2015-08-19T14:35:17",
+                    "upload_time_iso_8601": "2015-08-19T14:35:17.663749Z",
+                    "url": "https://files.pythonhosted.org/packages/92/d9/8382f455ef220ba5ed8edf8f524dfc5e163673ec4ad113033bb2ee810856/feedback-0.1.post6-py2.py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
+            "0.1.post7": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "4bfcadb1da2b2b5930eaff30929e1962",
+                        "sha256": "108ac8c8446801600a157f518db403a2ac73a998954d2714cca43ddb02e3a416"
+                    },
+                    "downloads": -1,
+                    "filename": "feedback-0.1.post7-py2.py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "4bfcadb1da2b2b5930eaff30929e1962",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "2.7",
+                    "requires_python": null,
+                    "size": 5262,
+                    "upload_time": "2015-08-20T14:43:10",
+                    "upload_time_iso_8601": "2015-08-20T14:43:10.988977Z",
+                    "url": "https://files.pythonhosted.org/packages/98/d7/11398de3908d1ba3ccf873e03e0213413fcfd119cfcfc6fb80390e958196/feedback-0.1.post7-py2.py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ]
+        },
+        "urls": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "4bfcadb1da2b2b5930eaff30929e1962",
+                    "sha256": "108ac8c8446801600a157f518db403a2ac73a998954d2714cca43ddb02e3a416"
+                },
+                "downloads": -1,
+                "filename": "feedback-0.1.post7-py2.py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "4bfcadb1da2b2b5930eaff30929e1962",
+                "packagetype": "bdist_wheel",
+                "python_version": "2.7",
+                "requires_python": null,
+                "size": 5262,
+                "upload_time": "2015-08-20T14:43:10",
+                "upload_time_iso_8601": "2015-08-20T14:43:10.988977Z",
+                "url": "https://files.pythonhosted.org/packages/98/d7/11398de3908d1ba3ccf873e03e0213413fcfd119cfcfc6fb80390e958196/feedback-0.1.post7-py2.py3-none-any.whl",
+                "yanked": false,
+                "yanked_reason": null
+            }
+        ]
+    },
+    "fidelity": {
+        "info": {
+            "author": "Morris Alper",
+            "author_email": "morrisalp@gmail.com",
+            "bugtrack_url": null,
+            "classifiers": [],
+            "description": "UNKNOWN",
+            "description_content_type": null,
+            "docs_url": null,
+            "download_url": "UNKNOWN",
+            "downloads": {
+                "last_day": -1,
+                "last_month": -1,
+                "last_week": -1
+            },
+            "home_page": "http://github.com/morrisalp/fidelity",
+            "keywords": null,
+            "license": "GPL-3.0",
+            "maintainer": null,
+            "maintainer_email": null,
+            "name": "fidelity",
+            "package_url": "https://pypi.org/project/fidelity/",
+            "platform": "UNKNOWN",
+            "project_url": "https://pypi.org/project/fidelity/",
+            "project_urls": {
+                "Download": "UNKNOWN",
+                "Homepage": "http://github.com/morrisalp/fidelity"
+            },
+            "release_url": "https://pypi.org/project/fidelity/0.1/",
+            "requires_dist": null,
+            "requires_python": null,
+            "summary": "Library for transcribing Tigrinya in ASCII",
+            "version": "0.1",
+            "yanked": false,
+            "yanked_reason": null
+        },
+        "last_serial": 2914192,
+        "releases": {
+            "0.1": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "56244508a0b04416adc7e181324b3738",
+                        "sha256": "814b6bd56e61fff1203c071d8dc3c5159eabcfdf8bd30c9f1a41e8ee6dff449a"
+                    },
+                    "downloads": -1,
+                    "filename": "fidelity-0.1.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "56244508a0b04416adc7e181324b3738",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 2289,
+                    "upload_time": "2017-05-31T17:44:38",
+                    "upload_time_iso_8601": "2017-05-31T17:44:38.579910Z",
+                    "url": "https://files.pythonhosted.org/packages/58/53/06a3677edc93ad33462f5a907e6fc27d5cb4e4871b7e3bfc402867e28f73/fidelity-0.1.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ]
+        },
+        "urls": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "56244508a0b04416adc7e181324b3738",
+                    "sha256": "814b6bd56e61fff1203c071d8dc3c5159eabcfdf8bd30c9f1a41e8ee6dff449a"
+                },
+                "downloads": -1,
+                "filename": "fidelity-0.1.tar.gz",
+                "has_sig": false,
+                "md5_digest": "56244508a0b04416adc7e181324b3738",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 2289,
+                "upload_time": "2017-05-31T17:44:38",
+                "upload_time_iso_8601": "2017-05-31T17:44:38.579910Z",
+                "url": "https://files.pythonhosted.org/packages/58/53/06a3677edc93ad33462f5a907e6fc27d5cb4e4871b7e3bfc402867e28f73/fidelity-0.1.tar.gz",
+                "yanked": false,
+                "yanked_reason": null
+            }
+        ]
     },
     "fleet": {
         "info": {
@@ -33272,6 +34330,834 @@
                 "upload_time": "2008-10-27T06:54:01",
                 "upload_time_iso_8601": "2008-10-27T06:54:01Z",
                 "url": "https://files.pythonhosted.org/packages/e7/12/fb8d4dcaecba86de8930a37367069b00f0902d258ab3d9d391befff2da82/Flight-0.9-py2.5.egg",
+                "yanked": false,
+                "yanked_reason": null
+            }
+        ]
+    },
+    "flourish": {
+        "info": {
+            "author": "Mark Norman Francis",
+            "author_email": "norm@201created.com",
+            "bugtrack_url": null,
+            "classifiers": [
+                "Development Status :: 3 - Alpha",
+                "Intended Audience :: Developers",
+                "License :: OSI Approved :: MIT License",
+                "Programming Language :: Python :: 3",
+                "Topic :: Internet :: WWW/HTTP :: Site Management",
+                "Topic :: Software Development :: Build Tools",
+                "Topic :: Software Development :: Code Generators",
+                "Topic :: Text Processing :: Markup :: HTML"
+            ],
+            "description": "",
+            "description_content_type": "",
+            "docs_url": null,
+            "download_url": "",
+            "downloads": {
+                "last_day": -1,
+                "last_month": -1,
+                "last_week": -1
+            },
+            "home_page": "https://github.com/norm/flourish",
+            "keywords": "",
+            "license": "MIT",
+            "maintainer": "",
+            "maintainer_email": "",
+            "name": "flourish",
+            "package_url": "https://pypi.org/project/flourish/",
+            "platform": "",
+            "project_url": "https://pypi.org/project/flourish/",
+            "project_urls": {
+                "Homepage": "https://github.com/norm/flourish"
+            },
+            "release_url": "https://pypi.org/project/flourish/0.9.1/",
+            "requires_dist": [
+                "boto3",
+                "Flask",
+                "Jinja2 (>=2.9)",
+                "markdown2",
+                "feedgen",
+                "toml",
+                "libsass",
+                "sectile (>=0.3)"
+            ],
+            "requires_python": ">=3.6",
+            "summary": "Static website generator",
+            "version": "0.9.1",
+            "yanked": false,
+            "yanked_reason": null
+        },
+        "last_serial": 8215687,
+        "releases": {
+            "0.1.0": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "c7580147a3a2b189ed21314971a49a80",
+                        "sha256": "50afb3e729e58cb4ed88ca87c8c57a6fa74e340688ee765eeb11b6eff99e970e"
+                    },
+                    "downloads": -1,
+                    "filename": "flourish-0.1.0-py2-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "c7580147a3a2b189ed21314971a49a80",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py2",
+                    "requires_python": null,
+                    "size": 7245,
+                    "upload_time": "2016-06-24T14:58:50",
+                    "upload_time_iso_8601": "2016-06-24T14:58:50.334217Z",
+                    "url": "https://files.pythonhosted.org/packages/68/ed/e8a437d20e2969df75aeada8952f2ebeade3ca3209280b6a34dd3b66735b/flourish-0.1.0-py2-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "be3b7e00c283e70d842630a414ddea2d",
+                        "sha256": "db4509becf36d119b4d195b6b2aceabfcc735242a2f50cd05c3694cb3409eb55"
+                    },
+                    "downloads": -1,
+                    "filename": "flourish-0.1.0.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "be3b7e00c283e70d842630a414ddea2d",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 5094,
+                    "upload_time": "2016-06-24T14:59:03",
+                    "upload_time_iso_8601": "2016-06-24T14:59:03.014856Z",
+                    "url": "https://files.pythonhosted.org/packages/ea/90/73233d6b833907713d00c40a516fda3e767ce3e5cf9563011edc31714d96/flourish-0.1.0.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
+            "0.4.0": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "488e7ea7075e600ef6d3432c0cf482ea",
+                        "sha256": "5c7382d25a6e00ac33ea9ead096073be15a7331a4db8785169676ff1fa41a8bd"
+                    },
+                    "downloads": -1,
+                    "filename": "flourish-0.4.0-py2-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "488e7ea7075e600ef6d3432c0cf482ea",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py2",
+                    "requires_python": null,
+                    "size": 16630,
+                    "upload_time": "2016-07-10T13:18:21",
+                    "upload_time_iso_8601": "2016-07-10T13:18:21.544621Z",
+                    "url": "https://files.pythonhosted.org/packages/80/00/84bd9eb0ce74facbf1f301a1b6c9c725dfacec56b6db2aadd8a1dd902a50/flourish-0.4.0-py2-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "16173c05f590b15909690f83601a6234",
+                        "sha256": "ae431ce2d0d836842c1d64937c32e1ef5dc8b0f487e24b681e81f6bd25325ec6"
+                    },
+                    "downloads": -1,
+                    "filename": "flourish-0.4.0.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "16173c05f590b15909690f83601a6234",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 13742,
+                    "upload_time": "2016-07-10T13:18:25",
+                    "upload_time_iso_8601": "2016-07-10T13:18:25.601565Z",
+                    "url": "https://files.pythonhosted.org/packages/29/da/9d468a904989b0e07e992c1aeb72742ed4b678260ab02eec35b7827f8deb/flourish-0.4.0.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
+            "0.4.1": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "a00786d90051ba19e9982c80b762557c",
+                        "sha256": "da8c5266b621612630f8169842576fa6840d5b58c5f760447f91a7f78414fab6"
+                    },
+                    "downloads": -1,
+                    "filename": "flourish-0.4.1-py2-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "a00786d90051ba19e9982c80b762557c",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py2",
+                    "requires_python": null,
+                    "size": 16633,
+                    "upload_time": "2016-07-10T13:36:35",
+                    "upload_time_iso_8601": "2016-07-10T13:36:35.647717Z",
+                    "url": "https://files.pythonhosted.org/packages/65/b2/7a09057f18779976035a8217344eb19fed47867f530181adeaa340d0128c/flourish-0.4.1-py2-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "571e857ae51afc602e22651a84e6b913",
+                        "sha256": "256d5d23d36d71ba7b7a1190b1d123aed192f4daf25fbe973af98b3ef37ba61e"
+                    },
+                    "downloads": -1,
+                    "filename": "flourish-0.4.1.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "571e857ae51afc602e22651a84e6b913",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 13754,
+                    "upload_time": "2016-07-10T13:36:40",
+                    "upload_time_iso_8601": "2016-07-10T13:36:40.229308Z",
+                    "url": "https://files.pythonhosted.org/packages/6c/e7/cb0b4b0b175c0b98099cfe99968213c5fefd035394bdeebcd29244fb0bd3/flourish-0.4.1.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
+            "0.4.2": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "f4902bd36b6d7e29c11fbe90c6d67525",
+                        "sha256": "151af42bd5410142def59662f022267f69c4052b6298c7564424e285957243b6"
+                    },
+                    "downloads": -1,
+                    "filename": "flourish-0.4.2-py2-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "f4902bd36b6d7e29c11fbe90c6d67525",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py2",
+                    "requires_python": null,
+                    "size": 16737,
+                    "upload_time": "2016-07-10T22:10:23",
+                    "upload_time_iso_8601": "2016-07-10T22:10:23.199780Z",
+                    "url": "https://files.pythonhosted.org/packages/94/96/e3ad5c46d8ac15d6a2dbb1169b78158e155319590558722e6af3229ee45b/flourish-0.4.2-py2-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "bf2e6f28e7422135688a03ed84fc7870",
+                        "sha256": "321765585cfb5f72867b482a00de3763bd671ecd861d3e223c76330461f4dd05"
+                    },
+                    "downloads": -1,
+                    "filename": "flourish-0.4.2.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "bf2e6f28e7422135688a03ed84fc7870",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 13857,
+                    "upload_time": "2016-07-10T22:10:28",
+                    "upload_time_iso_8601": "2016-07-10T22:10:28.387831Z",
+                    "url": "https://files.pythonhosted.org/packages/f1/46/7235d22b43a728f3a4bb78692ba519ad73615651ad61baee33404ff7d9bf/flourish-0.4.2.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
+            "0.5": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "8cabe8b2ea80965a976b658228825086",
+                        "sha256": "9f28a1293ed463f0c01ffc9ff83b9bc831b068b47021f7b283666e4ddbddc044"
+                    },
+                    "downloads": -1,
+                    "filename": "flourish-0.5-py2-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "8cabe8b2ea80965a976b658228825086",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py2",
+                    "requires_python": null,
+                    "size": 17556,
+                    "upload_time": "2016-07-23T15:44:11",
+                    "upload_time_iso_8601": "2016-07-23T15:44:11.274572Z",
+                    "url": "https://files.pythonhosted.org/packages/81/c2/ed5ddc991448866539e1bf7ed9e8d0725bba8a94e4a5d16b5565724d07e4/flourish-0.5-py2-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "57d94f92ce31bd5231d6d1ec61c01d72",
+                        "sha256": "50b90f6a8c996bb7a28ce33a3f09f9f6fbb383b0c6632500b8d410fce61edc70"
+                    },
+                    "downloads": -1,
+                    "filename": "flourish-0.5.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "57d94f92ce31bd5231d6d1ec61c01d72",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 13430,
+                    "upload_time": "2016-07-23T15:44:13",
+                    "upload_time_iso_8601": "2016-07-23T15:44:13.516780Z",
+                    "url": "https://files.pythonhosted.org/packages/4b/12/6d3d32bba2878d1049a651d34119d8c4a7c8732602f9565da6c70422a9b1/flourish-0.5.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
+            "0.6": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "7656d5c337654e37cf3bce6bf042d80a",
+                        "sha256": "70c6e73dae3b1cd0b1fbfaf84e7e6c5ac7b328bdb2977248b0747136bf67ac28"
+                    },
+                    "downloads": -1,
+                    "filename": "flourish-0.6-py2-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "7656d5c337654e37cf3bce6bf042d80a",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py2",
+                    "requires_python": null,
+                    "size": 21012,
+                    "upload_time": "2016-08-06T08:57:22",
+                    "upload_time_iso_8601": "2016-08-06T08:57:22.168497Z",
+                    "url": "https://files.pythonhosted.org/packages/92/62/e217105a09a3f1ebb016bd2c3fbe9affcb6d8b4d3649f0365d9e3baa9d6d/flourish-0.6-py2-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "7c3dc2025185d0a439f20d97d0c47165",
+                        "sha256": "b8f17986f8a1789e2e123d5f8198393bc336f7b6409c282c0a2df42920c68173"
+                    },
+                    "downloads": -1,
+                    "filename": "flourish-0.6.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "7c3dc2025185d0a439f20d97d0c47165",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 14920,
+                    "upload_time": "2016-08-06T08:57:24",
+                    "upload_time_iso_8601": "2016-08-06T08:57:24.880570Z",
+                    "url": "https://files.pythonhosted.org/packages/32/4e/29f5bca1a2b7ef9313107e101e6016f34da57a91a61b898d7c7648ab35dd/flourish-0.6.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
+            "0.7.0": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "01c83491003006319875c88b87c65b3b",
+                        "sha256": "cdd32dbe74804c8f06023032d0cc85fd04bd59b88b68d1a58b55e9e86dbbf36b"
+                    },
+                    "downloads": -1,
+                    "filename": "flourish-0.7.0-py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "01c83491003006319875c88b87c65b3b",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py3",
+                    "requires_python": null,
+                    "size": 22508,
+                    "upload_time": "2020-06-16T16:15:08",
+                    "upload_time_iso_8601": "2020-06-16T16:15:08.645825Z",
+                    "url": "https://files.pythonhosted.org/packages/20/e9/f4dc8c044d8a71c2468e442ff43c5b48de762c4cd1eb611e7e86e64a3d6a/flourish-0.7.0-py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "591e188334b2d8e0dee8453989799205",
+                        "sha256": "be8cc0277a233fadb7d5841e59518fd122d87749e87d4732e5b0392c06c43840"
+                    },
+                    "downloads": -1,
+                    "filename": "flourish-0.7.0.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "591e188334b2d8e0dee8453989799205",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 15796,
+                    "upload_time": "2020-06-16T16:15:09",
+                    "upload_time_iso_8601": "2020-06-16T16:15:09.803810Z",
+                    "url": "https://files.pythonhosted.org/packages/2a/75/3b1aa8e76515e4c22503e81bd1ec0db30e7b99bf772f5c73c6d880f473b9/flourish-0.7.0.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
+            "0.8.0": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "324198fa8175e232c73178772ecb5294",
+                        "sha256": "fbb2186b750a98303172668bddf855ed80908be2105387b9f951579621fcbe10"
+                    },
+                    "downloads": -1,
+                    "filename": "flourish-0.8.0-py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "324198fa8175e232c73178772ecb5294",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py3",
+                    "requires_python": ">=3.6",
+                    "size": 30750,
+                    "upload_time": "2020-08-02T06:18:22",
+                    "upload_time_iso_8601": "2020-08-02T06:18:22.551388Z",
+                    "url": "https://files.pythonhosted.org/packages/75/8e/b5814b4f92043c0be9d3c6576f6e3d4f686ace10b600c86e1e3fda25b7be/flourish-0.8.0-py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "3033f64220ccd53b7f4bd8826a9584ff",
+                        "sha256": "909a3b3bc64eb2cb0ef53a8ac75366cff86a12c03297f4cf2a2cda3659bf011a"
+                    },
+                    "downloads": -1,
+                    "filename": "flourish-0.8.0.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "3033f64220ccd53b7f4bd8826a9584ff",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": ">=3.6",
+                    "size": 21070,
+                    "upload_time": "2020-08-02T06:18:23",
+                    "upload_time_iso_8601": "2020-08-02T06:18:23.823741Z",
+                    "url": "https://files.pythonhosted.org/packages/bf/bf/3cb79267763d917cae5466b78c6eb0b6293db8a2dc5a491c975ff9afc5cb/flourish-0.8.0.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
+            "0.9.0": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "9df9d99d1d91e2b1ca96a27dd7557a3e",
+                        "sha256": "71feb0a90911381394036e81644316f612c28fe7401004c76568e735c579a757"
+                    },
+                    "downloads": -1,
+                    "filename": "flourish-0.9.0-py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "9df9d99d1d91e2b1ca96a27dd7557a3e",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py3",
+                    "requires_python": ">=3.6",
+                    "size": 31443,
+                    "upload_time": "2020-09-18T08:55:03",
+                    "upload_time_iso_8601": "2020-09-18T08:55:03.170781Z",
+                    "url": "https://files.pythonhosted.org/packages/f1/34/e7a257f47b8520ca5bbc4b51eef87310738f9b503d274a8984b2538d9851/flourish-0.9.0-py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "75dc62cd0b334093a80e92f1a0bf2df3",
+                        "sha256": "01e699ebe0f204519c2e226957dc8511b38893b7a683cae96323c62cd38a91e1"
+                    },
+                    "downloads": -1,
+                    "filename": "flourish-0.9.0.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "75dc62cd0b334093a80e92f1a0bf2df3",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": ">=3.6",
+                    "size": 22180,
+                    "upload_time": "2020-09-18T08:55:05",
+                    "upload_time_iso_8601": "2020-09-18T08:55:05.325796Z",
+                    "url": "https://files.pythonhosted.org/packages/81/36/d2a3afbdead115d1e4ea8ed345e4099d2adbd427a0cca32ab6d3651f2854/flourish-0.9.0.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
+            "0.9.1": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "11a397c85c538b5813325faad3a7ca5b",
+                        "sha256": "ba0f36ab0a22e9841b1e699ad31270a3b3d079429bf6a6e5dade582a093c7022"
+                    },
+                    "downloads": -1,
+                    "filename": "flourish-0.9.1-py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "11a397c85c538b5813325faad3a7ca5b",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py3",
+                    "requires_python": ">=3.6",
+                    "size": 31427,
+                    "upload_time": "2020-09-18T09:13:02",
+                    "upload_time_iso_8601": "2020-09-18T09:13:02.988108Z",
+                    "url": "https://files.pythonhosted.org/packages/7a/a1/120bec8c42ea21579b96657bac32b0e529fe4a658d0dd6baa9c50fef9c9d/flourish-0.9.1-py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "574a63dac5b1860a170efc37be704fb6",
+                        "sha256": "07b3a21b1890bdfc0846c1edc65ebbf77b1289efb26fe29a1370e925629588b7"
+                    },
+                    "downloads": -1,
+                    "filename": "flourish-0.9.1.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "574a63dac5b1860a170efc37be704fb6",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": ">=3.6",
+                    "size": 22169,
+                    "upload_time": "2020-09-18T09:13:04",
+                    "upload_time_iso_8601": "2020-09-18T09:13:04.383884Z",
+                    "url": "https://files.pythonhosted.org/packages/ee/3b/11c0c18f220eff283642f95d1db19f6b195235c29d7c109b64cd70f4096a/flourish-0.9.1.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ]
+        },
+        "urls": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "11a397c85c538b5813325faad3a7ca5b",
+                    "sha256": "ba0f36ab0a22e9841b1e699ad31270a3b3d079429bf6a6e5dade582a093c7022"
+                },
+                "downloads": -1,
+                "filename": "flourish-0.9.1-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "11a397c85c538b5813325faad3a7ca5b",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": ">=3.6",
+                "size": 31427,
+                "upload_time": "2020-09-18T09:13:02",
+                "upload_time_iso_8601": "2020-09-18T09:13:02.988108Z",
+                "url": "https://files.pythonhosted.org/packages/7a/a1/120bec8c42ea21579b96657bac32b0e529fe4a658d0dd6baa9c50fef9c9d/flourish-0.9.1-py3-none-any.whl",
+                "yanked": false,
+                "yanked_reason": null
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "574a63dac5b1860a170efc37be704fb6",
+                    "sha256": "07b3a21b1890bdfc0846c1edc65ebbf77b1289efb26fe29a1370e925629588b7"
+                },
+                "downloads": -1,
+                "filename": "flourish-0.9.1.tar.gz",
+                "has_sig": false,
+                "md5_digest": "574a63dac5b1860a170efc37be704fb6",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": ">=3.6",
+                "size": 22169,
+                "upload_time": "2020-09-18T09:13:04",
+                "upload_time_iso_8601": "2020-09-18T09:13:04.383884Z",
+                "url": "https://files.pythonhosted.org/packages/ee/3b/11c0c18f220eff283642f95d1db19f6b195235c29d7c109b64cd70f4096a/flourish-0.9.1.tar.gz",
+                "yanked": false,
+                "yanked_reason": null
+            }
+        ]
+    },
+    "football": {
+        "info": {
+            "author": "Amos Bastian",
+            "author_email": "amosbastian@googlemail.com",
+            "bugtrack_url": null,
+            "classifiers": [
+                "Development Status :: 2 - Pre-Alpha",
+                "Intended Audience :: Developers",
+                "License :: OSI Approved :: GNU Affero General Public License v3",
+                "Programming Language :: Python :: 3.6"
+            ],
+            "description": "",
+            "description_content_type": "",
+            "docs_url": null,
+            "download_url": "",
+            "downloads": {
+                "last_day": -1,
+                "last_month": -1,
+                "last_week": -1
+            },
+            "home_page": "https://github.com/amosbastian/football",
+            "keywords": "football football-data api",
+            "license": "AGPL-3.0",
+            "maintainer": "",
+            "maintainer_email": "",
+            "name": "football",
+            "package_url": "https://pypi.org/project/football/",
+            "platform": "",
+            "project_url": "https://pypi.org/project/football/",
+            "project_urls": {
+                "Homepage": "https://github.com/amosbastian/football"
+            },
+            "release_url": "https://pypi.org/project/football/0.2.0/",
+            "requires_dist": [
+                "requests"
+            ],
+            "requires_python": ">=3.6",
+            "summary": "A Python wrapper around the football-data API.",
+            "version": "0.2.0",
+            "yanked": false,
+            "yanked_reason": null
+        },
+        "last_serial": 3947678,
+        "releases": {
+            "0.1.1": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "e4c095dc706f019d2e24b487a291252b",
+                        "sha256": "092a6ff9c36850e7eb53f2dc0ace5e4549c1cc5f0ee0f16924a8af098b1910f2"
+                    },
+                    "downloads": -1,
+                    "filename": "football-0.1.1-py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "e4c095dc706f019d2e24b487a291252b",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py3",
+                    "requires_python": ">=3.6",
+                    "size": 15304,
+                    "upload_time": "2018-05-14T00:15:09",
+                    "upload_time_iso_8601": "2018-05-14T00:15:09.766653Z",
+                    "url": "https://files.pythonhosted.org/packages/aa/fc/5fcc43103463fd8a578e53afdd042d0eb985b5b3c922aaee49c7ef66b023/football-0.1.1-py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "36cf03135eb19797f3c5c9fe17c57701",
+                        "sha256": "4db7b19733acb0b7106243e414f2bc6c85522ab7561444343d9b7a442198dd37"
+                    },
+                    "downloads": -1,
+                    "filename": "football-0.1.1.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "36cf03135eb19797f3c5c9fe17c57701",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": ">=3.6",
+                    "size": 3733,
+                    "upload_time": "2018-05-14T00:15:11",
+                    "upload_time_iso_8601": "2018-05-14T00:15:11.041816Z",
+                    "url": "https://files.pythonhosted.org/packages/67/2b/22f8e79dd1d8bfd4e068644b563bda53a45871bb8c9003f7494f51fcf517/football-0.1.1.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
+            "0.2.0": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "6519263750e8191b11e3c68ae3c31935",
+                        "sha256": "5d943eb2592b44243e3bd3c311da55f983a87c8e172065de3a0f39dea6a70adc"
+                    },
+                    "downloads": -1,
+                    "filename": "football-0.2.0-py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "6519263750e8191b11e3c68ae3c31935",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py3",
+                    "requires_python": ">=3.6",
+                    "size": 24564,
+                    "upload_time": "2018-06-10T15:33:13",
+                    "upload_time_iso_8601": "2018-06-10T15:33:13.014566Z",
+                    "url": "https://files.pythonhosted.org/packages/93/e8/4f76e3450395677d357b236a150b77c1c2cbb2222bc8f4f6c78cd7633c3c/football-0.2.0-py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "5d59b0647cb21946307c8c9f82e096bd",
+                        "sha256": "c722f611a8416f97b5d7020fc21ced301ac2e885f3522aed2cde5b461f7fddfc"
+                    },
+                    "downloads": -1,
+                    "filename": "football-0.2.0.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "5d59b0647cb21946307c8c9f82e096bd",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": ">=3.6",
+                    "size": 11163,
+                    "upload_time": "2018-06-10T15:33:14",
+                    "upload_time_iso_8601": "2018-06-10T15:33:14.371518Z",
+                    "url": "https://files.pythonhosted.org/packages/48/d4/4e9ff7cf7a44b2cab86d6914bf0a75368b69e2d6bc1b235bded894c9675b/football-0.2.0.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ]
+        },
+        "urls": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "6519263750e8191b11e3c68ae3c31935",
+                    "sha256": "5d943eb2592b44243e3bd3c311da55f983a87c8e172065de3a0f39dea6a70adc"
+                },
+                "downloads": -1,
+                "filename": "football-0.2.0-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "6519263750e8191b11e3c68ae3c31935",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": ">=3.6",
+                "size": 24564,
+                "upload_time": "2018-06-10T15:33:13",
+                "upload_time_iso_8601": "2018-06-10T15:33:13.014566Z",
+                "url": "https://files.pythonhosted.org/packages/93/e8/4f76e3450395677d357b236a150b77c1c2cbb2222bc8f4f6c78cd7633c3c/football-0.2.0-py3-none-any.whl",
+                "yanked": false,
+                "yanked_reason": null
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "5d59b0647cb21946307c8c9f82e096bd",
+                    "sha256": "c722f611a8416f97b5d7020fc21ced301ac2e885f3522aed2cde5b461f7fddfc"
+                },
+                "downloads": -1,
+                "filename": "football-0.2.0.tar.gz",
+                "has_sig": false,
+                "md5_digest": "5d59b0647cb21946307c8c9f82e096bd",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": ">=3.6",
+                "size": 11163,
+                "upload_time": "2018-06-10T15:33:14",
+                "upload_time_iso_8601": "2018-06-10T15:33:14.371518Z",
+                "url": "https://files.pythonhosted.org/packages/48/d4/4e9ff7cf7a44b2cab86d6914bf0a75368b69e2d6bc1b235bded894c9675b/football-0.2.0.tar.gz",
+                "yanked": false,
+                "yanked_reason": null
+            }
+        ]
+    },
+    "forecast": {
+        "info": {
+            "author": "Alfred Chen",
+            "author_email": "chenxiang0815@gmail.com",
+            "bugtrack_url": null,
+            "classifiers": [
+                "Development Status :: 2 - Pre-Alpha",
+                "Intended Audience :: Developers",
+                "License :: OSI Approved :: MIT License",
+                "Natural Language :: English",
+                "Programming Language :: Python :: 2",
+                "Programming Language :: Python :: 2.6",
+                "Programming Language :: Python :: 2.7",
+                "Programming Language :: Python :: 3",
+                "Programming Language :: Python :: 3.3",
+                "Programming Language :: Python :: 3.4",
+                "Programming Language :: Python :: 3.5"
+            ],
+            "description": "========\nforecast\n========\n\n\n.. image:: https://img.shields.io/pypi/v/forecast.svg\n        :target: https://pypi.python.org/pypi/forecast\n\n.. image:: https://img.shields.io/travis/BlackPoint-CX/forecast.svg\n        :target: https://travis-ci.org/BlackPoint-CX/forecast\n\n.. image:: https://readthedocs.org/projects/forecast/badge/?version=latest\n        :target: https://forecast.readthedocs.io/en/latest/?badge=latest\n        :alt: Documentation Status\n\n.. image:: https://pyup.io/repos/github/BlackPoint-CX/forecast/shield.svg\n     :target: https://pyup.io/repos/github/BlackPoint-CX/forecast/\n     :alt: Updates\n\n\nImplemetion of Book 'forcasting priceples and practise'\n\n\n* Free software: MIT license\n* Documentation: https://forecast.readthedocs.io.\n\n\nFeatures\n--------\n\n* TODO\n\nCredits\n---------\n\nThis package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.\n\n.. _Cookiecutter: https://github.com/audreyr/cookiecutter\n.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage\n\n\n\n=======\nHistory\n=======\n\n0.1.0 (2017-12-04)\n------------------\n\n* First release on PyPI.\n\n\n",
+            "description_content_type": null,
+            "docs_url": null,
+            "download_url": "",
+            "downloads": {
+                "last_day": -1,
+                "last_month": -1,
+                "last_week": -1
+            },
+            "home_page": "https://github.com/BlackPoint-CX/forecast",
+            "keywords": "forecast",
+            "license": "MIT license",
+            "maintainer": "",
+            "maintainer_email": "",
+            "name": "forecast",
+            "package_url": "https://pypi.org/project/forecast/",
+            "platform": "",
+            "project_url": "https://pypi.org/project/forecast/",
+            "project_urls": {
+                "Homepage": "https://github.com/BlackPoint-CX/forecast"
+            },
+            "release_url": "https://pypi.org/project/forecast/0.1.0/",
+            "requires_dist": [
+                "Click (>=6.0)"
+            ],
+            "requires_python": "",
+            "summary": "Implemetion of Book 'forcasting priceples and practise'",
+            "version": "0.1.0",
+            "yanked": false,
+            "yanked_reason": null
+        },
+        "last_serial": 3386652,
+        "releases": {
+            "0.1.0": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "d4e3703d1abab44d3d8ad6c056889a53",
+                        "sha256": "24811e42f3535cea94d8cf2cfc439ab3575aad0203e563297cca14c3db88aeac"
+                    },
+                    "downloads": -1,
+                    "filename": "forecast-0.1.0-py2.py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "d4e3703d1abab44d3d8ad6c056889a53",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py2.py3",
+                    "requires_python": null,
+                    "size": 4149,
+                    "upload_time": "2017-12-04T10:12:27",
+                    "upload_time_iso_8601": "2017-12-04T10:12:27.369484Z",
+                    "url": "https://files.pythonhosted.org/packages/cb/f4/e909b98055fae6643c2b5e3a023b93ec2a9a483db90a6be4402ccff4eb05/forecast-0.1.0-py2.py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "245d9695fe6415aa22bcb53e6dd282ef",
+                        "sha256": "ba30c7a7bcfa6b9de829e5c65562c06be519ab77b910fd02ee085b08263854dc"
+                    },
+                    "downloads": -1,
+                    "filename": "forecast-0.1.0.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "245d9695fe6415aa22bcb53e6dd282ef",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 12241,
+                    "upload_time": "2017-12-04T10:12:29",
+                    "upload_time_iso_8601": "2017-12-04T10:12:29.645705Z",
+                    "url": "https://files.pythonhosted.org/packages/7c/18/cd982fbb924c9c454ae2a1231b9431b1726bd665668ff76a2cab9d65c7a1/forecast-0.1.0.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ]
+        },
+        "urls": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "d4e3703d1abab44d3d8ad6c056889a53",
+                    "sha256": "24811e42f3535cea94d8cf2cfc439ab3575aad0203e563297cca14c3db88aeac"
+                },
+                "downloads": -1,
+                "filename": "forecast-0.1.0-py2.py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "d4e3703d1abab44d3d8ad6c056889a53",
+                "packagetype": "bdist_wheel",
+                "python_version": "py2.py3",
+                "requires_python": null,
+                "size": 4149,
+                "upload_time": "2017-12-04T10:12:27",
+                "upload_time_iso_8601": "2017-12-04T10:12:27.369484Z",
+                "url": "https://files.pythonhosted.org/packages/cb/f4/e909b98055fae6643c2b5e3a023b93ec2a9a483db90a6be4402ccff4eb05/forecast-0.1.0-py2.py3-none-any.whl",
+                "yanked": false,
+                "yanked_reason": null
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "245d9695fe6415aa22bcb53e6dd282ef",
+                    "sha256": "ba30c7a7bcfa6b9de829e5c65562c06be519ab77b910fd02ee085b08263854dc"
+                },
+                "downloads": -1,
+                "filename": "forecast-0.1.0.tar.gz",
+                "has_sig": false,
+                "md5_digest": "245d9695fe6415aa22bcb53e6dd282ef",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 12241,
+                "upload_time": "2017-12-04T10:12:29",
+                "upload_time_iso_8601": "2017-12-04T10:12:29.645705Z",
+                "url": "https://files.pythonhosted.org/packages/7c/18/cd982fbb924c9c454ae2a1231b9431b1726bd665668ff76a2cab9d65c7a1/forecast-0.1.0.tar.gz",
                 "yanked": false,
                 "yanked_reason": null
             }
@@ -34467,6 +36353,137 @@
             }
         ]
     },
+    "fracture": {
+        "info": {
+            "author": "Mike Malinowski",
+            "author_email": "mike@twisted.space",
+            "bugtrack_url": null,
+            "classifiers": [
+                "License :: OSI Approved :: MIT License",
+                "Operating System :: OS Independent",
+                "Programming Language :: Python"
+            ],
+            "description": "# Overview\n\n\nFracture is a lightweight and flexible data management system. It allows\nyou to interact with data through a trait compositing mechanism, whilst\nalso exposing the ability to quickly query and access information\nabout the data you're exploring.\n\n\n# How it works\n\n\nYou start by creating a fracture project. The project file is where all\nthe metadata and look up tables are stored - allowing you to easily search\nfor data assets as well as find changes.\n\nFracture comes built-in with a file searching mechanism, but you can extend\nthis with your own search mechanisms too. For instance, if you have data\non an FTP, or within Source Control and you want to add that data to the\nproject without having to have it physically on disk you're able to do so\nby implementing a fracture.ScanProcess plugin.\n\nFinally, and probably the most important is the DataElement. This is a class\nwhich you can use to express the functionality of data. Rather than having a\n1:1 relationship between a DataElement class and a data type the DataElement\nclass supports class compositing. This allows for a piece of data to be\nrepresented by more than one class simultaneously.\n\n\n# Examples\n\n\nThis example uses the ```dino_example``` data which you can download from\nhttps://github.com/mikemalinowski/fracture. \n\nTo start with, we create a fracture project. To do this we must specify\ntwo pieces of information, the first being where we want to save our \nproject file and the second being the locations where we want fracture\nto look for Scan and Data Plugins.\n\n```python\nimport os\nimport fracture\n\nproject = fracture.create(\n    project_path=os.path.join(current_path, '_dino.fracture'),\n    plugin_locations=[os.path.join(current_path, 'plugins')]\n)\n```\n\nThis returns a fracture.Project instance which we can then start interacting\nwith, for instance we can define locations where the project should start\nlooking for data:\n\n```python\n# -- Tell the project where to look for data\nproject.add_scan_location('/usr/my_data'))\n```\n\nFinally, with the project made, and at least one search location added we\ncan initiate a search...\n\n```python\n# -- Now we initiate a scan. This will cycle over all the\n# -- scan locations and scrape them for data\nproject.scan()\n```\n\nScanning is the process of running over all the scan plugins - of which there\nis always at least one (the file scraper), and populating the project with\ninformation about each piece of data which is found. The process is pretty\nquick and the amount of data stored is minimal - primarily just the identifier\nsuch as the path along with any tags as defined by any DataElement composites\nwhich can represent that data.\n\nWith the project populated we can now start querying the project for\ndata\n\n```python\n# -- Now we have scanned we can start to run queries over data\n# -- very quickly. We can search by tags, or use the special\n# -- * wildcard\nfor item in project.find('*'):\n\n    # -- By default we get string identifiers back from a find, as\n    # -- this is incredibly quick. However, we can ask for the data\n    # -- composite representation of the item. A data composite is\n    # -- a composition of all the data plugins which can represent\n    # -- this identifier.\n    item = project.get(item)\n\n    # -- Print the identifier, and the item (which also shows the\n    # -- class composition)\n    print(item.identifier())\n    print('\\t%s' % item)\n\n    # -- We can start interacting with this data, calling\n    # -- functionality will return a dictionary of all the\n    # -- functionality exposed by all the data plugins representing\n    # -- this item\n    for k, v in item.functionality().items():\n        print('\\t\\t%s = %s' % (k, v))\n```\n\nThe process of querying is very quick, even for reasonably large data sets. In\nthe example above we're then asking the project to 'get' the item. This process\ntake the identifier and binds all the relevent DataElements together which\ncan possibly represent the data.\n\nBinding is particularly useful when there is no obvious hierarchy between\ntwo elements. For instance, in the ```dino_example``` data set we have a\ntrait which is ```carnivore``` and a trait which is ```herbivore```. There\nis no hierarchical relationship between the two, but an omnivore would need\nboth. By using class compositing we avoid complex multi-inheritence situations.\n\nUsing this same mechanism, if we know the locator of a piece of information,\nsuch as a file path, we can get the composited class directly without having\nto run a query, as shown here:\n\n```python\n# -- We do not have to utilise the find method to get access to data,\n# -- and in fact we can get a Composite representation of data even\n# -- if that data is not within our scan location.\ndata = project.get('/usr/my_data/my_file.txt')\n```\n\nFor a full demo, download the ```dino_example``` and run main.py\n\n\n# Data Composition\n\n\nAs mentioned in the examples, we use class composition to bind traits together\nto represent data. This means we can have small, self contained traits which\ndo not need rigid hierarchical structures designed for them.\n\nThere are three main composited methods in the DataElement class, specifically:\n\n* label : The first call that returns a positive result is taken\n* mandatory_tags : All the lists are collated from all compositions and made unique\n* functionality : All dictionaries are combined into a single dictionary\n* icon : The first call that returns a positive result is taken\n\nGiven the ```dino_example``` files, the velociraptor.png file, when passed\nto ```project.get('/usr/my_data/.../velociraptor.png')``` is expressed\nas a class formed of the following traits: [Carnivore; File; Image;] where each\ntrait can expose its own information.\n\nAn implementation of a DataElement plugin looks like this:\n\n```python\nimport re\nimport fracture\n\n# -- All plugins must inherit from the fracture.DataElement class in order\n# -- to be dynamically picked up.\nclass CarnivoreTrait(fracture.DataElement):\n\n    # -- The data type is mandatory, and is your way of\n    # -- denoting the name of this plugin\n    data_type = 'carnivore'\n\n    # -- These two lines are not at all required and are here\n    # -- just to make performance better\n    _split = re.compile('/|\\.|,|-|:|_', re.I)\n    _has_trait = re.compile('(carnivore|omnivore).*\\.', re.I)\n\n    # --------------------------------------------------------------------------\n    # -- This method must be re-implemented, and its your oppotunity to\n    # -- decide whether this plugin can viably represent the given data\n    # -- identifier.\n    # -- In this example we use a regex check, but it could be anything\n    # -- you want. The key thing to remember is that this is called a lot,\n    # -- so performance is worth keeping in mind.\n    @classmethod\n    def can_represent(cls, identifier):\n        if CarnivoreTrait._has_trait.search(identifier):\n            return True\n        return False\n\n    # --------------------------------------------------------------------------\n    # -- This is your way of exposing functionality in a common and consistent\n    # -- way. If you know the data types you can of course call things directly\n    # -- but this is a good catch up consistent way of exposing functionality\n    # -- and is typically harnessed by user interfaces.\n    def functionality(self):\n        return dict(\n            feed_meat=self.feed_meat,\n            ),\n        )\n\n    # --------------------------------------------------------------------------\n    # -- This should return a 'nice name' for the identifier\n    def label(self):\n        return os.path.basename(self.identifier())\n\n    # --------------------------------------------------------------------------\n    # -- As fracture heavily utilises tags, this is your way of defining a\n    # -- set of tags which are mandatory for anything with this trait\n    def mandatory_tags(self):\n        return ['carnivore', 'meat', 'hunter']\n\n    # --------------------------------------------------------------------------\n    # -- This is here just as a demonstration of a callable function which\n    # -- which can be accessed on the trait\n    def feed_meat(self):\n        print('Would feed this creature some meat...')\n```\n\nBy placing a trait plugin anywhere within the plugin locations you define\nfor your project will immediately make it accessible.\n\n\n## ScanProcess\n\n\nBy default fracture comes with one built-in scan plugin which handles file\nscanning, so that is a good example when wanting to write your own - if you \nhave need to do so.\n\nThis plugin type defines how to find data. If your data is files on a disk\nsuch as those in the example above then your scan plugin may do little more\nthan cycle directories and yield file paths.\n\nAlternatively if you're caching data from a REST API you might be utilising\nrequests within the scan process and feeding back URL's.\n\n\n# Origin\n\n\nThis library is a variation on the tools demonstrated during\nGDC2018 (A Practical Approach to Developing Forward-Facing Rigs, Tools and\nPipelines), which can be explored in more detail here:\nhttps://www.gdcvault.com/play/1025427/A-Practical-Approach-to-Developing\n\nSlide 55 onward explores this concept. It is also explored in detail\non this webpage:\nhttps://www.twisted.space/blog/insight-localised-asset-management\n\n\n# Collaboration\n\nI am always open to collaboration, so if you spot bugs lets me know, or if\nyou would like to contribute or get involved just shout!\n\n\n# Compatibility\n\nLaunchpad has been tested under Python 2.7 and Python 3.7 on Windows and Ubuntu.",
+            "description_content_type": "text/markdown",
+            "docs_url": null,
+            "download_url": "",
+            "downloads": {
+                "last_day": -1,
+                "last_month": -1,
+                "last_week": -1
+            },
+            "home_page": "https://github.com/mikemalinowski/fracture",
+            "keywords": "fracture data composite",
+            "license": "",
+            "maintainer": "",
+            "maintainer_email": "",
+            "name": "fracture",
+            "package_url": "https://pypi.org/project/fracture/",
+            "platform": "",
+            "project_url": "https://pypi.org/project/fracture/",
+            "project_urls": {
+                "Homepage": "https://github.com/mikemalinowski/fracture"
+            },
+            "release_url": "https://pypi.org/project/fracture/0.9.2/",
+            "requires_dist": null,
+            "requires_python": "",
+            "summary": "Fracture is a lightweight and flexible data management system",
+            "version": "0.9.2",
+            "yanked": false,
+            "yanked_reason": null
+        },
+        "last_serial": 5010298,
+        "releases": {
+            "0.0.1": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "d80e91b83ebc3e18f5140190609c8bb3",
+                        "sha256": "75583297549e7e2b85bc3bca652e69ab83a95814a9d33130ce7d6bd7c6eafab7"
+                    },
+                    "downloads": -1,
+                    "filename": "fracture-0.0.1.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "d80e91b83ebc3e18f5140190609c8bb3",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 1703,
+                    "upload_time": "2019-03-27T13:50:33",
+                    "upload_time_iso_8601": "2019-03-27T13:50:33.100693Z",
+                    "url": "https://files.pythonhosted.org/packages/8f/28/c6f3ba3066de9483290470166f149cce265e171d3dc7ca7075f338046ec7/fracture-0.0.1.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
+            "0.9.1": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "54a0af35f26166b1f754858452b4bc7a",
+                        "sha256": "aac7c8822d05bdaef822b025c2c0062aee9d83eb86a6b6e9ec08a7a080e814c8"
+                    },
+                    "downloads": -1,
+                    "filename": "fracture-0.9.1.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "54a0af35f26166b1f754858452b4bc7a",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 116943,
+                    "upload_time": "2019-03-30T21:50:35",
+                    "upload_time_iso_8601": "2019-03-30T21:50:35.771148Z",
+                    "url": "https://files.pythonhosted.org/packages/af/27/da20030ca2b3d6fed772fabc2368b5c5c8d7a73a98a0713d6ad6f27f1b7a/fracture-0.9.1.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
+            "0.9.2": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "a4f41c2b98963de51871a55bdc3684d7",
+                        "sha256": "ab30e20d329d503272293024ae11991dd7a53108a27e4f20068dcc27f6db3ebf"
+                    },
+                    "downloads": -1,
+                    "filename": "fracture-0.9.2.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "a4f41c2b98963de51871a55bdc3684d7",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 117532,
+                    "upload_time": "2019-03-31T20:16:26",
+                    "upload_time_iso_8601": "2019-03-31T20:16:26.205029Z",
+                    "url": "https://files.pythonhosted.org/packages/72/2f/beeff94ed93e2ed03d6932261e5d64b97186f02b821cbdcb1f158420d53e/fracture-0.9.2.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ]
+        },
+        "urls": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "a4f41c2b98963de51871a55bdc3684d7",
+                    "sha256": "ab30e20d329d503272293024ae11991dd7a53108a27e4f20068dcc27f6db3ebf"
+                },
+                "downloads": -1,
+                "filename": "fracture-0.9.2.tar.gz",
+                "has_sig": false,
+                "md5_digest": "a4f41c2b98963de51871a55bdc3684d7",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 117532,
+                "upload_time": "2019-03-31T20:16:26",
+                "upload_time_iso_8601": "2019-03-31T20:16:26.205029Z",
+                "url": "https://files.pythonhosted.org/packages/72/2f/beeff94ed93e2ed03d6932261e5d64b97186f02b821cbdcb1f158420d53e/fracture-0.9.2.tar.gz",
+                "yanked": false,
+                "yanked_reason": null
+            }
+        ]
+    },
     "frigate": {
         "info": {
             "author": "Jacob Tomlinson",
@@ -34630,6 +36647,112 @@
                 "upload_time": "2020-05-28T16:05:53",
                 "upload_time_iso_8601": "2020-05-28T16:05:53.598062Z",
                 "url": "https://files.pythonhosted.org/packages/bb/45/9a2fc1f9caa2d50d2a0b369836f5d6deaf2cb91c738887cb9aaac817252b/frigate-0.2.0.tar.gz",
+                "yanked": false,
+                "yanked_reason": null
+            }
+        ]
+    },
+    "function": {
+        "info": {
+            "author": "Peter",
+            "author_email": "a184999@gmail.com",
+            "bugtrack_url": null,
+            "classifiers": [],
+            "description": "UNKNOWN",
+            "description_content_type": null,
+            "docs_url": null,
+            "download_url": "UNKNOWN",
+            "downloads": {
+                "last_day": -1,
+                "last_month": -1,
+                "last_week": -1
+            },
+            "home_page": "UNKNOWN",
+            "keywords": null,
+            "license": "UNKNOWN",
+            "maintainer": null,
+            "maintainer_email": null,
+            "name": "function",
+            "package_url": "https://pypi.org/project/function/",
+            "platform": "UNKNOWN",
+            "project_url": "https://pypi.org/project/function/",
+            "project_urls": {
+                "Download": "UNKNOWN",
+                "Homepage": "UNKNOWN"
+            },
+            "release_url": "https://pypi.org/project/function/1.2.0/",
+            "requires_dist": null,
+            "requires_python": null,
+            "summary": "A simple nest list",
+            "version": "1.2.0",
+            "yanked": false,
+            "yanked_reason": null
+        },
+        "last_serial": 1442939,
+        "releases": {
+            "1.0.0": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "2dd588ec30f63e2a1de64466b72e32a3",
+                        "sha256": "6fb67e193d632569e990bd5da2cb7ca7d7c467f1059447fbf3492e9a75e80661"
+                    },
+                    "downloads": -1,
+                    "filename": "function-1.0.0.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "2dd588ec30f63e2a1de64466b72e32a3",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 705,
+                    "upload_time": "2015-02-27T07:59:43",
+                    "upload_time_iso_8601": "2015-02-27T07:59:43.641619Z",
+                    "url": "https://files.pythonhosted.org/packages/14/08/be5e5272e25afd10b8d2a0fe1c800fecc9a2b8e71bf0168c51cc0c63c7ea/function-1.0.0.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
+            "1.2.0": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "ff9f144bd9acc6baab41b45292c8b7e7",
+                        "sha256": "53eb5eb647e8bec5965fac4870e4bb96fb0fa87960bb21e3e10d2889597fbb7f"
+                    },
+                    "downloads": -1,
+                    "filename": "function-1.2.0.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "ff9f144bd9acc6baab41b45292c8b7e7",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 766,
+                    "upload_time": "2015-03-01T07:33:17",
+                    "upload_time_iso_8601": "2015-03-01T07:33:17.928503Z",
+                    "url": "https://files.pythonhosted.org/packages/bc/42/a8cbdaa14213d5f67907073286782bd75987cf32e191d2b6a395bf349368/function-1.2.0.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ]
+        },
+        "urls": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "ff9f144bd9acc6baab41b45292c8b7e7",
+                    "sha256": "53eb5eb647e8bec5965fac4870e4bb96fb0fa87960bb21e3e10d2889597fbb7f"
+                },
+                "downloads": -1,
+                "filename": "function-1.2.0.tar.gz",
+                "has_sig": false,
+                "md5_digest": "ff9f144bd9acc6baab41b45292c8b7e7",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 766,
+                "upload_time": "2015-03-01T07:33:17",
+                "upload_time_iso_8601": "2015-03-01T07:33:17.928503Z",
+                "url": "https://files.pythonhosted.org/packages/bc/42/a8cbdaa14213d5f67907073286782bd75987cf32e191d2b6a395bf349368/function-1.2.0.tar.gz",
                 "yanked": false,
                 "yanked_reason": null
             }
@@ -48023,6 +50146,127 @@
             }
         ]
     },
+    "labyrinth": {
+        "info": {
+            "author": "Tian Yen",
+            "author_email": "tianchu@uw.edu",
+            "bugtrack_url": null,
+            "classifiers": [],
+            "description": "########\nLabyrinth\n########\n\nLabyrinth is a maze like game created as a project in the UWPCE Python Certificate Program.\n\nThis version is set up as a complete python package\n\n\n",
+            "description_content_type": "",
+            "docs_url": null,
+            "download_url": "",
+            "downloads": {
+                "last_day": -1,
+                "last_month": -1,
+                "last_week": -1
+            },
+            "home_page": "",
+            "keywords": "",
+            "license": "LICENSE.txt",
+            "maintainer": "",
+            "maintainer_email": "",
+            "name": "labyrinth",
+            "package_url": "https://pypi.org/project/labyrinth/",
+            "platform": "",
+            "project_url": "https://pypi.org/project/labyrinth/",
+            "project_urls": null,
+            "release_url": "https://pypi.org/project/labyrinth/0.1.1/",
+            "requires_dist": null,
+            "requires_python": "",
+            "summary": "Simple labyrinth game",
+            "version": "0.1.1",
+            "yanked": false,
+            "yanked_reason": null
+        },
+        "last_serial": 3682627,
+        "releases": {
+            "0.1.1": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "d9f36f4b11f7f74f020f958251882621",
+                        "sha256": "aaf4207d1b949269ef6338ab342852ac0dbdd53934ba1cb197d894cf79a49618"
+                    },
+                    "downloads": -1,
+                    "filename": "labyrinth-0.1.1-py3-none-any.whl",
+                    "has_sig": false,
+                    "md5_digest": "d9f36f4b11f7f74f020f958251882621",
+                    "packagetype": "bdist_wheel",
+                    "python_version": "py3",
+                    "requires_python": null,
+                    "size": 397701,
+                    "upload_time": "2018-03-19T04:24:07",
+                    "upload_time_iso_8601": "2018-03-19T04:24:07.873667Z",
+                    "url": "https://files.pythonhosted.org/packages/c6/fb/4dd3959d2bbf041a3f267aaada2a6a1a5897c33529b343a15922308cb74d/labyrinth-0.1.1-py3-none-any.whl",
+                    "yanked": false,
+                    "yanked_reason": null
+                },
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "6ae1902fe2a279b838519b99ef0bda91",
+                        "sha256": "898d5c69439773bb869cddbe07cac3ef5816f8df558b41b1fdcfd6f3c12967a9"
+                    },
+                    "downloads": -1,
+                    "filename": "labyrinth-0.1.1.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "6ae1902fe2a279b838519b99ef0bda91",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 395216,
+                    "upload_time": "2018-03-19T04:24:09",
+                    "upload_time_iso_8601": "2018-03-19T04:24:09.924601Z",
+                    "url": "https://files.pythonhosted.org/packages/33/f1/6b538da882c32932c1aa62bab70ca4c5b460fa653aa896f443c4f53bd7e6/labyrinth-0.1.1.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ]
+        },
+        "urls": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "d9f36f4b11f7f74f020f958251882621",
+                    "sha256": "aaf4207d1b949269ef6338ab342852ac0dbdd53934ba1cb197d894cf79a49618"
+                },
+                "downloads": -1,
+                "filename": "labyrinth-0.1.1-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "d9f36f4b11f7f74f020f958251882621",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": null,
+                "size": 397701,
+                "upload_time": "2018-03-19T04:24:07",
+                "upload_time_iso_8601": "2018-03-19T04:24:07.873667Z",
+                "url": "https://files.pythonhosted.org/packages/c6/fb/4dd3959d2bbf041a3f267aaada2a6a1a5897c33529b343a15922308cb74d/labyrinth-0.1.1-py3-none-any.whl",
+                "yanked": false,
+                "yanked_reason": null
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "6ae1902fe2a279b838519b99ef0bda91",
+                    "sha256": "898d5c69439773bb869cddbe07cac3ef5816f8df558b41b1fdcfd6f3c12967a9"
+                },
+                "downloads": -1,
+                "filename": "labyrinth-0.1.1.tar.gz",
+                "has_sig": false,
+                "md5_digest": "6ae1902fe2a279b838519b99ef0bda91",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 395216,
+                "upload_time": "2018-03-19T04:24:09",
+                "upload_time_iso_8601": "2018-03-19T04:24:09.924601Z",
+                "url": "https://files.pythonhosted.org/packages/33/f1/6b538da882c32932c1aa62bab70ca4c5b460fa653aa896f443c4f53bd7e6/labyrinth-0.1.1.tar.gz",
+                "yanked": false,
+                "yanked_reason": null
+            }
+        ]
+    },
     "launch": {
         "info": {
             "author": "Flowdas Inc.",
@@ -48441,6 +50685,112 @@
         },
         "urls": []
     },
+    "leviathan": {
+        "info": {
+            "author": "UNKNOWN",
+            "author_email": "UNKNOWN",
+            "bugtrack_url": null,
+            "classifiers": [],
+            "description": "UNKNOWN",
+            "description_content_type": null,
+            "docs_url": null,
+            "download_url": "UNKNOWN",
+            "downloads": {
+                "last_day": -1,
+                "last_month": -1,
+                "last_week": -1
+            },
+            "home_page": "UNKNOWN",
+            "keywords": null,
+            "license": "UNKNOWN",
+            "maintainer": null,
+            "maintainer_email": null,
+            "name": "leviathan",
+            "package_url": "https://pypi.org/project/leviathan/",
+            "platform": "UNKNOWN",
+            "project_url": "https://pypi.org/project/leviathan/",
+            "project_urls": {
+                "Download": "UNKNOWN",
+                "Homepage": "UNKNOWN"
+            },
+            "release_url": "https://pypi.org/project/leviathan/0.1.1/",
+            "requires_dist": null,
+            "requires_python": null,
+            "summary": "UNKNOWN",
+            "version": "0.1.1",
+            "yanked": false,
+            "yanked_reason": null
+        },
+        "last_serial": 2177532,
+        "releases": {
+            "0.1": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "c3febbe1ed4e3c2de1a45c79447bb2ba",
+                        "sha256": "35a2342e59eaf539f8639fad193390ba0456af92b01385d92a2971cc24622ac9"
+                    },
+                    "downloads": -1,
+                    "filename": "leviathan-0.1.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "c3febbe1ed4e3c2de1a45c79447bb2ba",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 2436,
+                    "upload_time": "2016-06-20T15:25:41",
+                    "upload_time_iso_8601": "2016-06-20T15:25:41.243059Z",
+                    "url": "https://files.pythonhosted.org/packages/a7/7d/9faf2a83cb6af043087b0a0922f83994200492baa6bcb7a7c8c30a20267c/leviathan-0.1.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
+            "0.1.1": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "0a503fabe92a921aacaf72e748d4d114",
+                        "sha256": "b446f572fff0ddf7a6e766c6352c28cc7fab5f7d36845e8877f23f2e00f2b64a"
+                    },
+                    "downloads": -1,
+                    "filename": "leviathan-0.1.1.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "0a503fabe92a921aacaf72e748d4d114",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 2445,
+                    "upload_time": "2016-06-20T16:36:23",
+                    "upload_time_iso_8601": "2016-06-20T16:36:23.885213Z",
+                    "url": "https://files.pythonhosted.org/packages/7a/1d/49e68a05f258fa3383c585db891920a3e0f9f6f1f562554169a3ee6adf67/leviathan-0.1.1.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ]
+        },
+        "urls": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "0a503fabe92a921aacaf72e748d4d114",
+                    "sha256": "b446f572fff0ddf7a6e766c6352c28cc7fab5f7d36845e8877f23f2e00f2b64a"
+                },
+                "downloads": -1,
+                "filename": "leviathan-0.1.1.tar.gz",
+                "has_sig": false,
+                "md5_digest": "0a503fabe92a921aacaf72e748d4d114",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 2445,
+                "upload_time": "2016-06-20T16:36:23",
+                "upload_time_iso_8601": "2016-06-20T16:36:23.885213Z",
+                "url": "https://files.pythonhosted.org/packages/7a/1d/49e68a05f258fa3383c585db891920a3e0f9f6f1f562554169a3ee6adf67/leviathan-0.1.1.tar.gz",
+                "yanked": false,
+                "yanked_reason": null
+            }
+        ]
+    },
     "life": {
         "info": {
             "author": "G\u00e9rald Lelong",
@@ -48546,6 +50896,57 @@
                 "yanked_reason": null
             }
         ]
+    },
+    "lightning": {
+        "info": {
+            "author": "Andr\u00c3\u00a9 Roberge",
+            "author_email": "andre.roberge@gmail.com",
+            "bugtrack_url": null,
+            "classifiers": [
+                "Development Status :: 5 - Production/Stable",
+                "Intended Audience :: Developers",
+                "Intended Audience :: Education",
+                "License :: Freeware",
+                "Natural Language :: English",
+                "Programming Language :: Python",
+                "Topic :: Education :: Testing",
+                "Topic :: Software Development",
+                "Topic :: Software Development :: Testing"
+            ],
+            "description": "",
+            "description_content_type": null,
+            "docs_url": null,
+            "download_url": "",
+            "downloads": {
+                "last_day": -1,
+                "last_month": -1,
+                "last_week": -1
+            },
+            "home_page": "http://sourceforge.net/project/showfiles.php?group_id=125834",
+            "keywords": "",
+            "license": "Free!\r\nAdapt as you wish; acknowledgement appreciated",
+            "maintainer": "Andr\u00c3\u00a9 Roberge",
+            "maintainer_email": "andre.roberge@gmail.com",
+            "name": "Lightning",
+            "package_url": "https://pypi.org/project/Lightning/",
+            "platform": "",
+            "project_url": "https://pypi.org/project/Lightning/",
+            "project_urls": {
+                "Homepage": "http://sourceforge.net/project/showfiles.php?group_id=125834"
+            },
+            "release_url": "https://pypi.org/project/Lightning/1.4/",
+            "requires_dist": null,
+            "requires_python": null,
+            "summary": "",
+            "version": "1.4",
+            "yanked": false,
+            "yanked_reason": null
+        },
+        "last_serial": 6459690,
+        "releases": {
+            "1.4": []
+        },
+        "urls": []
     },
     "like": {
         "info": {
@@ -63047,6 +65448,603 @@
             "1.0": []
         },
         "urls": []
+    },
+    "sharpener": {
+        "info": {
+            "author": "Filippo Marcello Maccagni",
+            "author_email": "filippo.maccagni@gmail.com",
+            "bugtrack_url": null,
+            "classifiers": [
+                "Intended Audience :: Developers",
+                "Programming Language :: Python :: 2",
+                "Topic :: Scientific/Engineering :: Astronomy",
+                "Topic :: Software Development :: Libraries :: Python Modules"
+            ],
+            "description": "# SHARPener\n\n\nThis is a set of tools that have been developed in preparation of the HI absorption surveys of the SKA precursors and pathfinders.\n\n`sharpener` identifies the position of all continuum sources in a continuum image and extracts a spectrum against all their lines of sight. The spectra are then plotted. Multiple options can be provided by the user, such has hanning smoothing and polynomial fitting and subtraction of the spectra, and plotting the spectra in different units (km/s, Hz, Jy beam$^{-1}$, $\\tau$). Further information are given in the next sections.\n\n`sharpener` can be run automatically using a `.yml` [parameter file](https://github.com/Fil8/SHARPener/wiki/Parameter-file) as  `run_sharpener -c <parameter_file.yml>`, or through a `IPython`\n[notebook](https://github.com/Fil8/SHARPener/blob/master/tutorials/T2_automated_run.ipynb).\n\nTo generate config with `run_sharpener -gd <parameter_file.yml>` and for help `run_sharpener -h`.\n\nThe following [tutorials](https://github.com/Fil8/SHARPener/tree/master/tutorials) can guide you through the different capabilities of `sharpener`.\n\n***\n\n### Installation\n\n**Requisites**\n- `SHARPener` makes use of the most common `python` packages (e.g. `numpy`, `scipy`, `astropy`, `astroquery`, `prettytable`) and addition to `mpdaf` and `pypdf2`.\n- The parameter file is in `yaml` format, hence `pyaml`, and `json` packages should be installed.\n- Tutorials make use of `tabulate` and `glob` for fancy outputs.\n- `SHARPener` source finder calls the function `imsad` of Miriad. Miriad must be installed for the source finder to work properly. No python wrapper is needed, since it is already included in `SHARPener`.\n\n**Insallation instructions**\n\n- This package is available on [pypi](https://pypi.org/project/sharpener/), allowing:\n\n```\npip install sharpener\n```\n\n- Alternatively, clone this repository. From terminal type:\n\n```\ngit clone https://github.com/Fil8/SHARPener.git\n```\n\n- Then change directory into SHARPener and install:\n\n```\ncd SHARPener && pip install .\n\n```\n\n \n ***\n <p>&copy <sub> Filippo M. Maccagni 2018-2019 </sub></p>",
+            "description_content_type": "text/markdown",
+            "docs_url": null,
+            "download_url": "",
+            "downloads": {
+                "last_day": -1,
+                "last_month": -1,
+                "last_week": -1
+            },
+            "home_page": "https://github.com/Fil8/SHARPener",
+            "keywords": "",
+            "license": "GNU GPL 3",
+            "maintainer": "",
+            "maintainer_email": "",
+            "name": "sharpener",
+            "package_url": "https://pypi.org/project/sharpener/",
+            "platform": "OS Independent",
+            "project_url": "https://pypi.org/project/sharpener/",
+            "project_urls": {
+                "Homepage": "https://github.com/Fil8/SHARPener"
+            },
+            "release_url": "https://pypi.org/project/sharpener/1.0.8/",
+            "requires_dist": null,
+            "requires_python": "",
+            "summary": "sharpener is a tool to identify the position of all continuum sources in a continuum image and extract a spectrum from each line of sight of these sources.",
+            "version": "1.0.8",
+            "yanked": false,
+            "yanked_reason": null
+        },
+        "last_serial": 5571474,
+        "releases": {
+            "1.0.3": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "19dbfb42e81977ce70b9db1644687ca9",
+                        "sha256": "1754a345200eb99fb90fd21b02e2b5eeaa60220b2714170ee8c31c3f2b9bd12c"
+                    },
+                    "downloads": -1,
+                    "filename": "sharpener-1.0.3.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "19dbfb42e81977ce70b9db1644687ca9",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 32326,
+                    "upload_time": "2019-06-28T07:50:48",
+                    "upload_time_iso_8601": "2019-06-28T07:50:48.828829Z",
+                    "url": "https://files.pythonhosted.org/packages/e0/0c/f60bb3e27344b918a9676354b178e710b3ad6fc81171018b60d9d5ac5f53/sharpener-1.0.3.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
+            "1.0.4": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "e5ef0e1e98ca5ce7e16910fd7086b8e1",
+                        "sha256": "5ba9be18e9bfc6da40b156fd0e2ec24bb103e725488d5619e6f5a2296b79489b"
+                    },
+                    "downloads": -1,
+                    "filename": "sharpener-1.0.4.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "e5ef0e1e98ca5ce7e16910fd7086b8e1",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 55246,
+                    "upload_time": "2019-06-28T19:29:55",
+                    "upload_time_iso_8601": "2019-06-28T19:29:55.753763Z",
+                    "url": "https://files.pythonhosted.org/packages/7a/ef/832a39154dbe4a83eb9be6001812beb189bffcb1bb80dd164cddead0e828/sharpener-1.0.4.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
+            "1.0.6": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "6adb3f7947a63d060b9d5f407a64ccdf",
+                        "sha256": "42cc17387cf1344850e7fd568b8b0dcac2b9441ddd00aadc0aa66eae82e8513e"
+                    },
+                    "downloads": -1,
+                    "filename": "sharpener-1.0.6.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "6adb3f7947a63d060b9d5f407a64ccdf",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 50943,
+                    "upload_time": "2019-07-03T14:36:53",
+                    "upload_time_iso_8601": "2019-07-03T14:36:53.462511Z",
+                    "url": "https://files.pythonhosted.org/packages/3a/e1/265842799e8cb15ad8c69a482c7e771e68091c99c7e2c400a40e2f493f6a/sharpener-1.0.6.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
+            "1.0.7": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "3ef17e7ca0711cd0acf2c89f49d3a137",
+                        "sha256": "2e9e74f57e1af197c0aeec8c8f5612d2592b4ed3bab67b06dc214d6491980795"
+                    },
+                    "downloads": -1,
+                    "filename": "sharpener-1.0.7.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "3ef17e7ca0711cd0acf2c89f49d3a137",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 50972,
+                    "upload_time": "2019-07-05T12:56:23",
+                    "upload_time_iso_8601": "2019-07-05T12:56:23.411988Z",
+                    "url": "https://files.pythonhosted.org/packages/31/a5/d52b9d06d2295475ce1493be45ac6382ff916fd608131b229fc00aa32b5e/sharpener-1.0.7.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
+            "1.0.8": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "eef47c34651cb40eda0bb68bae67b1c9",
+                        "sha256": "28694f08bc411935c91f17d95b6575c694c7476b4a3822f54956570261e5c170"
+                    },
+                    "downloads": -1,
+                    "filename": "sharpener-1.0.8.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "eef47c34651cb40eda0bb68bae67b1c9",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 51647,
+                    "upload_time": "2019-07-23T09:38:19",
+                    "upload_time_iso_8601": "2019-07-23T09:38:19.429709Z",
+                    "url": "https://files.pythonhosted.org/packages/89/f6/62936f3b42c44497f7c042fa4a658f243e54536412f0416061756b610622/sharpener-1.0.8.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ]
+        },
+        "urls": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "eef47c34651cb40eda0bb68bae67b1c9",
+                    "sha256": "28694f08bc411935c91f17d95b6575c694c7476b4a3822f54956570261e5c170"
+                },
+                "downloads": -1,
+                "filename": "sharpener-1.0.8.tar.gz",
+                "has_sig": false,
+                "md5_digest": "eef47c34651cb40eda0bb68bae67b1c9",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 51647,
+                "upload_time": "2019-07-23T09:38:19",
+                "upload_time_iso_8601": "2019-07-23T09:38:19.429709Z",
+                "url": "https://files.pythonhosted.org/packages/89/f6/62936f3b42c44497f7c042fa4a658f243e54536412f0416061756b610622/sharpener-1.0.8.tar.gz",
+                "yanked": false,
+                "yanked_reason": null
+            }
+        ]
+    },
+    "sharpy": {
+        "info": {
+            "author": "Sean O'Connor",
+            "author_email": "sean@saaspire.com",
+            "bugtrack_url": null,
+            "classifiers": [
+                "Development Status :: 4 - Beta",
+                "Environment :: Web Environment",
+                "Intended Audience :: Developers",
+                "License :: OSI Approved :: BSD License",
+                "Programming Language :: Python",
+                "Topic :: Software Development :: Libraries :: Python Modules"
+            ],
+            "description": "======\nSharpy\n======\n\nSharpy is a client for the Cheddar Getter (https://cheddargetter.com/) API.\nCheddar Getter is a great service for handling recurring and usage based\nbilling.\n\nThere are some existing python Cheddar Getter clients but they have\nsignificant licensing problems, packaging problems, bugs, and are only partial\nimplementations of the Cheddar Getter API.\n\nSharpy offers a number of advantages:\n\n* Clear and simple BSD license.\n* Both a high and low level API - Work with cheddar the way you want to.\n* 100% test coverage.\n* Proper packaging - Sharpy can be installed via easy_install and PIP.\n* Implements almost all of the Cheddar Getter API (See TODOs below).\n* Will have complete documentation soon.\n\nThat all being said, sharpy is still very new and is likely to undergo some \nsignificant API changes in the near future.  The code should be fairly safe \nto use as long as you understand that future releases may not be backwards \ncompatible.\n\nGetting Started\n===============\n\nTo get started with Sharpy, simply install it like you would any other python\npackage\n\n    pip install sharpy\n    \nOptionally, you can also install `lxml <http://codespeak.net/lxml/>`_ on your\nsystem for faster XML parsing.\n    \nOnce you have sharpy installed, checkout our `docs <http://sharpy.readthedocs.org>`_\non how to use the library.\n\nDocumentation\n=============\n\nSharpy's documentation is available at `ReadTheDocs\n<http://sharpy.readthedocs.org>`_ or in the ``docs`` directory of the project.\n\nCode\n====\n\nYou can checkout and download Sharpy's latest code at `Github\n<https://github.com/saaspire/sharpy>`_.\n\nTODOs\n=====\n\n* Flesh out the documentation to cover the full API.\n* Add support for the various filtering options in the `get_customers` call.",
+            "description_content_type": null,
+            "docs_url": null,
+            "download_url": "UNKNOWN",
+            "downloads": {
+                "last_day": -1,
+                "last_month": -1,
+                "last_week": -1
+            },
+            "home_page": "https://github.com/Saaspire/sharpy",
+            "keywords": null,
+            "license": "BSD",
+            "maintainer": null,
+            "maintainer_email": null,
+            "name": "Sharpy",
+            "package_url": "https://pypi.org/project/Sharpy/",
+            "platform": "UNKNOWN",
+            "project_url": "https://pypi.org/project/Sharpy/",
+            "project_urls": {
+                "Download": "UNKNOWN",
+                "Homepage": "https://github.com/Saaspire/sharpy"
+            },
+            "release_url": "https://pypi.org/project/Sharpy/0.8/",
+            "requires_dist": null,
+            "requires_python": null,
+            "summary": "Python client for the Cheddar Getter API (http://cheddargetter.com).",
+            "version": "0.8",
+            "yanked": false,
+            "yanked_reason": null
+        },
+        "last_serial": 785642,
+        "releases": {
+            "0.6": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "781698d417d0e5354b53d729063fc254",
+                        "sha256": "a040033a504b451e2e2e8e1e0f34d98c41e85c34c4392d2691c2bafba11ae520"
+                    },
+                    "downloads": -1,
+                    "filename": "Sharpy-0.6.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "781698d417d0e5354b53d729063fc254",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 15541,
+                    "upload_time": "2011-01-25T20:51:58",
+                    "upload_time_iso_8601": "2011-01-25T20:51:58.134238Z",
+                    "url": "https://files.pythonhosted.org/packages/48/01/b4bd118126c7f0b87e2bbd07afcf0f8a217eafaf711aa0189be130effb35/Sharpy-0.6.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
+            "0.6.1": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "a4122069f5d6eb2820b89bb3f1075b8a",
+                        "sha256": "e8d0fdc2dff3dd627980d1a032176acbe804be0128222a9526bb1613b2bcc546"
+                    },
+                    "downloads": -1,
+                    "filename": "Sharpy-0.6.1.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "a4122069f5d6eb2820b89bb3f1075b8a",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 28612,
+                    "upload_time": "2011-01-25T20:54:59",
+                    "upload_time_iso_8601": "2011-01-25T20:54:59.435787Z",
+                    "url": "https://files.pythonhosted.org/packages/64/37/cf764140b535dc9ca12c5494c28d199bba39baffd77241be67a3c0d4d2b8/Sharpy-0.6.1.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
+            "0.6.10": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "a430eec2e279b779892284441994ba64",
+                        "sha256": "6160a6ef8effadd408f0fbd8ef32eb7a84bdecbe3aa8b02be5458ab28a20010f"
+                    },
+                    "downloads": -1,
+                    "filename": "Sharpy-0.6.10.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "a430eec2e279b779892284441994ba64",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 29965,
+                    "upload_time": "2011-05-12T17:32:31",
+                    "upload_time_iso_8601": "2011-05-12T17:32:31.868805Z",
+                    "url": "https://files.pythonhosted.org/packages/07/d5/30831f83e661768b52360423bb556b04f29bc632721591244e048d5314f6/Sharpy-0.6.10.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
+            "0.6.2": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "08104c7b6804e9314e49dbe86f5f439e",
+                        "sha256": "28732c48ab45c83f34cf9d84b033240f6809a786f6f4fb3c773c46bd1b4ea535"
+                    },
+                    "downloads": -1,
+                    "filename": "Sharpy-0.6.2.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "08104c7b6804e9314e49dbe86f5f439e",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 28908,
+                    "upload_time": "2011-01-25T21:18:52",
+                    "upload_time_iso_8601": "2011-01-25T21:18:52.514521Z",
+                    "url": "https://files.pythonhosted.org/packages/5e/48/9c29c2b838707a65bf66b8cc76ccba8069a2da611a9e9a14d9b0a5af326f/Sharpy-0.6.2.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
+            "0.6.3": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "72c956e06f018dcd2b5f6a9297a38275",
+                        "sha256": "888a82deea8fcf3e95352b0102b205dd1b95655842a9bbedd976864afffb2c46"
+                    },
+                    "downloads": -1,
+                    "filename": "Sharpy-0.6.3.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "72c956e06f018dcd2b5f6a9297a38275",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 28897,
+                    "upload_time": "2011-01-25T21:20:55",
+                    "upload_time_iso_8601": "2011-01-25T21:20:55.793717Z",
+                    "url": "https://files.pythonhosted.org/packages/5c/04/925a358e8ae2f75fdbe6e9b5ac99c5fcfaad145043ae0709819a66b00a19/Sharpy-0.6.3.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
+            "0.6.4": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "d3e2884eaf5dc5768a81a68403f769ef",
+                        "sha256": "99011e7415c69afe75eb58f281dddb4d070f30081035eb38825b008efccf477f"
+                    },
+                    "downloads": -1,
+                    "filename": "Sharpy-0.6.4.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "d3e2884eaf5dc5768a81a68403f769ef",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 29051,
+                    "upload_time": "2011-01-28T22:55:15",
+                    "upload_time_iso_8601": "2011-01-28T22:55:15.165059Z",
+                    "url": "https://files.pythonhosted.org/packages/ef/ea/b1cc5a27c1cf10cc7b3fc1026c137c7f30c477c8b8527d41e36ec74f22a2/Sharpy-0.6.4.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
+            "0.6.5": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "7030e3c03d6a3747d0f6789fedea2587",
+                        "sha256": "4f3aa1d4afa3e6f186c627eec0f18f4ee89dcba922b2e0f9365f0e83923c3af9"
+                    },
+                    "downloads": -1,
+                    "filename": "Sharpy-0.6.5.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "7030e3c03d6a3747d0f6789fedea2587",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 28870,
+                    "upload_time": "2011-03-25T21:14:45",
+                    "upload_time_iso_8601": "2011-03-25T21:14:45.582742Z",
+                    "url": "https://files.pythonhosted.org/packages/5b/13/65d937b2b1368400bcce01e12dd8f5d02e996b8b28526e4c5c68bbd62efd/Sharpy-0.6.5.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
+            "0.6.6": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "3367df43a95e8184664f9b3a9d7cb36c",
+                        "sha256": "6d71db1945ff210c7e984a6e3f99613251c9ae33bf58c69c4e8f1f5c3f0bfe46"
+                    },
+                    "downloads": -1,
+                    "filename": "Sharpy-0.6.6.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "3367df43a95e8184664f9b3a9d7cb36c",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 28900,
+                    "upload_time": "2011-03-25T21:49:49",
+                    "upload_time_iso_8601": "2011-03-25T21:49:49.061596Z",
+                    "url": "https://files.pythonhosted.org/packages/e3/f7/c4c63aa8e92531c56163333cfdd1347fa21368f74714004db6df5c6f0b0d/Sharpy-0.6.6.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
+            "0.6.7": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "f90b1859a84499ede03482143b65a60b",
+                        "sha256": "57afbe77e8ec67e61d71a804fb41a38a7fa7f6a61493320a8562a7d80d4315ae"
+                    },
+                    "downloads": -1,
+                    "filename": "Sharpy-0.6.7.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "f90b1859a84499ede03482143b65a60b",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 29217,
+                    "upload_time": "2011-03-30T18:17:49",
+                    "upload_time_iso_8601": "2011-03-30T18:17:49.329841Z",
+                    "url": "https://files.pythonhosted.org/packages/a6/7b/28b5261bb479450176f3cb9f6d785bae677562243b088204edf23d254986/Sharpy-0.6.7.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
+            "0.6.8": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "68f73aaef8f31986ce4bab4fbfc67900",
+                        "sha256": "381083fac02e312a9f260247fb5d07ed46adba09ff9f917f434a79caabe6c0ce"
+                    },
+                    "downloads": -1,
+                    "filename": "Sharpy-0.6.8.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "68f73aaef8f31986ce4bab4fbfc67900",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 29907,
+                    "upload_time": "2011-05-10T23:46:04",
+                    "upload_time_iso_8601": "2011-05-10T23:46:04.433624Z",
+                    "url": "https://files.pythonhosted.org/packages/87/9d/bbb04c5515fa54e4e044414fd0fe81dbf213f7d9a0c602c3a476b3d2acb2/Sharpy-0.6.8.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
+            "0.6.9": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "7d68030f8f00c993f3f88bebc2a808c7",
+                        "sha256": "5b76cc5c8d8a17c308ac6b7ebd563a8be96bd3c951d2279180481558c21825f0"
+                    },
+                    "downloads": -1,
+                    "filename": "Sharpy-0.6.9.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "7d68030f8f00c993f3f88bebc2a808c7",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 29956,
+                    "upload_time": "2011-05-11T18:18:52",
+                    "upload_time_iso_8601": "2011-05-11T18:18:52.755927Z",
+                    "url": "https://files.pythonhosted.org/packages/1a/fc/0d4e9e1feed25d9f5b1004c6c39dc574ee75f52d29bd589d8487dab259b1/Sharpy-0.6.9.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
+            "0.7.0": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "a43e7ec9bb5debd480f4639a83791e7f",
+                        "sha256": "b225128a8849c16795cf64906c41b7fc8cc956959122fd312b79bb7099a8a4d5"
+                    },
+                    "downloads": -1,
+                    "filename": "Sharpy-0.7.0.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "a43e7ec9bb5debd480f4639a83791e7f",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 31599,
+                    "upload_time": "2011-05-16T22:37:07",
+                    "upload_time_iso_8601": "2011-05-16T22:37:07.873743Z",
+                    "url": "https://files.pythonhosted.org/packages/2d/21/dc2cacacc631b0896c056ff1caaa4a26bb5a160c9075e78214d7d1dc1c5e/Sharpy-0.7.0.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
+            "0.7.1": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "1e8a727ac83914e9cfd2847810a435dc",
+                        "sha256": "f33c0de4134b8e7cde3ba8520187032edf2979ccf7cf46b3216e31d265a5a6d2"
+                    },
+                    "downloads": -1,
+                    "filename": "Sharpy-0.7.1.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "1e8a727ac83914e9cfd2847810a435dc",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 31656,
+                    "upload_time": "2011-05-18T17:40:44",
+                    "upload_time_iso_8601": "2011-05-18T17:40:44.064626Z",
+                    "url": "https://files.pythonhosted.org/packages/d8/73/0c9694ecf9e7d697f56072faefe46ae45a9210fb5828c8cf8cf55ce450cd/Sharpy-0.7.1.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
+            "0.7.2": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "2302047d2ae23bce962422515842b86e",
+                        "sha256": "43c0874e7565249834231cca60d4f20266487b836164d09606e1b5bef7bdfbd1"
+                    },
+                    "downloads": -1,
+                    "filename": "Sharpy-0.7.2.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "2302047d2ae23bce962422515842b86e",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 31749,
+                    "upload_time": "2011-05-25T21:32:43",
+                    "upload_time_iso_8601": "2011-05-25T21:32:43.281284Z",
+                    "url": "https://files.pythonhosted.org/packages/03/9b/e5e9183f71669b761f2c2446a6dd0df31a7d18def9e303366dae0113542a/Sharpy-0.7.2.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
+            "0.7.3": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "7507c44b2cd5fc4d7b69174425f7ca67",
+                        "sha256": "9295e73cfac75f72dd3ab21f5cb5daa8cfa10acd43705ca42567d273792074f9"
+                    },
+                    "downloads": -1,
+                    "filename": "Sharpy-0.7.3.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "7507c44b2cd5fc4d7b69174425f7ca67",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 31821,
+                    "upload_time": "2011-06-02T03:52:27",
+                    "upload_time_iso_8601": "2011-06-02T03:52:27.808451Z",
+                    "url": "https://files.pythonhosted.org/packages/de/57/c0a24ef17d8d4448896e00e71a5d0a03eda645772a14d24b5d0aa1cb9d1c/Sharpy-0.7.3.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ],
+            "0.8": [
+                {
+                    "comment_text": "",
+                    "digests": {
+                        "md5": "404ae35e13aaf60e2357f0fee34a229d",
+                        "sha256": "8aab4e6418deeebd253d806802eef047e61d0980375cc25858c6cad8695568eb"
+                    },
+                    "downloads": -1,
+                    "filename": "Sharpy-0.8.tar.gz",
+                    "has_sig": false,
+                    "md5_digest": "404ae35e13aaf60e2357f0fee34a229d",
+                    "packagetype": "sdist",
+                    "python_version": "source",
+                    "requires_python": null,
+                    "size": 31950,
+                    "upload_time": "2011-09-09T22:35:39",
+                    "upload_time_iso_8601": "2011-09-09T22:35:39.529035Z",
+                    "url": "https://files.pythonhosted.org/packages/60/b8/a2eec50dc02680af75d1ae600a5ec75cc3c94df4cd029c79ed9fc45e5567/Sharpy-0.8.tar.gz",
+                    "yanked": false,
+                    "yanked_reason": null
+                }
+            ]
+        },
+        "urls": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "404ae35e13aaf60e2357f0fee34a229d",
+                    "sha256": "8aab4e6418deeebd253d806802eef047e61d0980375cc25858c6cad8695568eb"
+                },
+                "downloads": -1,
+                "filename": "Sharpy-0.8.tar.gz",
+                "has_sig": false,
+                "md5_digest": "404ae35e13aaf60e2357f0fee34a229d",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 31950,
+                "upload_time": "2011-09-09T22:35:39",
+                "upload_time_iso_8601": "2011-09-09T22:35:39.529035Z",
+                "url": "https://files.pythonhosted.org/packages/60/b8/a2eec50dc02680af75d1ae600a5ec75cc3c94df4cd029c79ed9fc45e5567/Sharpy-0.8.tar.gz",
+                "yanked": false,
+                "yanked_reason": null
+            }
+        ]
     },
     "shell": {
         "info": {
