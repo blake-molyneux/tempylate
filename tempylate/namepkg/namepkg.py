@@ -92,7 +92,6 @@ class Name:
         try:
             self.read()
             if self.name in self.cached:
-                print("It's in the cache.")
                 available = False
             pass
         except FileNotFoundError as error:

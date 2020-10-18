@@ -28,8 +28,13 @@ import pathlib
 import time
 import json
 
+from namepkg.namepkg import Name
+
 def main():
-    print("This is the tempylate project main.py!")
+    test_name = Name(name='sailor')
+    test_name.check()
+    print(test_name.available)
+
     return None
 
 # If called directly, run main()
