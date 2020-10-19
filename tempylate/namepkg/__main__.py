@@ -14,8 +14,17 @@ def main(cla):
                         min=cla.minimum,
                         max=cla.maximum,
                         start=cla.start)
-    name.gen_new_name()
-    print(name.output)
+    if cla.name == '':
+        name.gen_new_name()
+        print(name.output)
+    else:
+        name.check()
+        if name.available:
+            end = 'available!'
+        else:
+            end = 'taken.'
+        print(f'"{name.name}" is {end}')
+    
 
 def gcla():
     """Get Command Line Arguements"""

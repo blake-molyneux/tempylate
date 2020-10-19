@@ -115,7 +115,7 @@ class Name:
         self.cached = {}
 
     def gen_new_name(self):
-        """Make a new name."""
+        """Generate new name(s) based on input parameters."""
         url_base = 'https://api.datamuse.com/words?'
         url_query = ''
         
