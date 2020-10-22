@@ -28,7 +28,8 @@ def main(cla):
 
 def gcla():
     """Get Command Line Arguements"""
-    parser = argparse.ArgumentParser(description='Query packages on PyPI.')
+    parser = argparse.ArgumentParser(
+        description='Find available package names on PyPI.')
     
     parser.add_argument('-t', '--theme', type=str, default='',
         help='Topic or subject word to base sugggestions upon.')

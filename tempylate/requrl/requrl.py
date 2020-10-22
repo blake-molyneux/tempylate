@@ -9,6 +9,8 @@ module, but using the inbuilt module urllib to decrease reliance on
 external dependancies.
 """
 
+import urllib
+
 class URL:
     """Parse and construct urls.
     
@@ -22,3 +24,12 @@ class URL:
 
     def __init__(self):
         pass
+
+
+def parse():
+    """
+    Take a url and return a dict of its parts.
+    """
+
+
+    return None
