@@ -10,7 +10,6 @@ checking that those names aren't already taken on the PyPI.
 This module is a component of the **tempylate** project.
 """
 
-
 __author__ = "Blake Molyneux"
 __email__ = "blake.molyneux@hotmail.com"
 __docformat__ = "restructuredtext"

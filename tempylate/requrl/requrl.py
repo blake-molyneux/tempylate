@@ -9,6 +9,12 @@ module, but using the inbuilt module urllib to decrease reliance on
 external dependancies.
 """
 
+__author__ = "Blake Molyneux"
+__email__ = "blake.molyneux@hotmail.com"
+__docformat__ = "restructuredtext"
+__license__ = "MIT"
+__version__ = "0.0.1.dev0"
+
 import urllib.parse
 
 class URL:
