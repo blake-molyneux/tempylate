@@ -21,8 +21,6 @@ __docformat__ = "restructuredtext"
 __license__ = "MIT"
 __version__ = "0.0.1.dev0"
 
-# __all__ = [] # TODO: Don't know how this works yet
-
 import os
 import pathlib
 import time
@@ -36,6 +34,13 @@ def main():
     print(test_name.available)
 
     return None
+
+def rename():
+    """
+    Rename a package.
+    """
+    raise NotImplementedError("I've not implemented rename yet.")
+    pass
 
 # If called directly, run main()
 if __name__ == "__main__":
