@@ -36,3 +36,7 @@ def parse(url: str = '') -> dict:
     parts = urllib.parse.urlparse(url)
     return parts
 
+def main():
+    """PLACEHOLDER"""
+    print("HELLO FROM REQURL")
+    return None
