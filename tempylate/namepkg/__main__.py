@@ -1,5 +1,5 @@
 """
-
+Probide an entrypoint into the namepkg package from the cli.
 """
 
 import argparse
