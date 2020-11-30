@@ -2,7 +2,7 @@
 Authorship
 ==========
 
-Originaly created on Wednesday the 7th of October 2020.
+Originally created on Wednesday the 7th of October 2020.
 
 This repo is authored by Blake Molyneux.
 
