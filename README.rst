@@ -108,6 +108,9 @@ There are several steps to the publication process. These are:
 #. Upload revised build to PyPI.
 #. Upload docs to Read The Docs.
 
+For detailed instructions on how to complete these steps please see the
+`detailed publication`_ page of python packaging.
+
 PyPI Pub
 ~~~~~~~~
 The steps to publish this (or any other) repo to `PyPI`_ are covered in
@@ -238,6 +241,7 @@ Blake Molyneux, 2020
 .. _Functions: https://numpydoc.readthedocs.io/en/latest/format.html#sections
 .. _PEP 440: https://www.python.org/dev/peps/pep-0440/
 .. _PyPI: https://pypi.org/
+.. _detailed publication: https://packaging.python.org/guides/distributing-packages-using-setuptools/
 .. _publication tutorial: https://packaging.python.org/tutorials/packaging-projects/
 .. _RealPython: https://realpython.com/python-application-layouts/#application-with-internal-packages
 .. _PyPA: https://github.com/pypa/sampleproject
