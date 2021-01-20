@@ -8,67 +8,6 @@ This repo serves a few purposes:
 #. A reference repo.
 #. Showcase my personal process.
 
-Pythonic Zen
-------------
-There are a few important schemas to be uphold:
-
-- Let `PEP8`_ be your guide.
-- Use type hints::
-
-    def hello_world(name: str) -> str:
-        return(f"{name} says 'Hello World'!")
-
-- Follow the Documentation_ guidelines.
-- Write `Tests`_ for each and every function.
-- All files shall be written in UTF8 encoding.
-- The preference is to use single quotes `' '` over double quotes `" "`
-  wherever possible to enhance code readability.
-
-
-Documentation
--------------
-There are many layers of documentation in this repo. In all cases 
-documentation must be composed in `reStructuredText`_. The main
-inspiration for the structure of the documentation is the `Numpy`_
-formal documentation specification.
-Docs fall into one of 3 tiers:
-
-High
-~~~~
-High level docs (like this one) are front (consumer/user) facing. They
-are easily accessible by gui, web or other front ends.These must take 
-the file type ``.rst`` and be composed in `reStructuredText`_.
-
-Middle
-~~~~~~
-Middle level docs sit inside code files, usually at the top of the file,
-and provide the high-level description of the system. These can take the
-form of package or module docstrings. These must take one of the 
-following formats:
-
-Package Docstrings
-++++++++++++++++++
-Place these docstrings inside the `__init__.py` file at the top of the
-file. They should take the form:
-
-- TODO: Figure out how these comments should be formatted.
-
-Module Docstrings
-+++++++++++++++++
-Place these docstrings inside the "<package_name>.py" file, at the top
-of the file. They should conform to the `Module`_ format spec.
-
-Low
-~~~
-Low level docs sit inside the "code" within a module. All documentation
-in this section follows the guidelines set by the `Numpy`_ standard. An
-example module is provided by Numpy `here`_. A breakdown of the types of
-docstring included in the `Low`_ level are:
-
-- `Classes`_ 
-- `Constants`_ 
-- `Functions`_ 
-
 Included Functions
 ------------------
 - TODO: Build and list the included (functional) modules.
@@ -96,43 +35,6 @@ and can be left alone.
 NOTOUCH:
 
 - TODO: Add files that can be left alone.
-
-Publication
------------
-There are several steps to the publication process. These are:
-
-1. Formalise all documentation.
-#. Configure setup.py file.
-#. Build project into distro.
-#. Upload build to the Test PyPI platform. Confirm functionality.
-#. Upload revised build to PyPI.
-#. Upload docs to Read The Docs.
-
-For detailed instructions on how to complete these steps please see the
-`detailed publication`_ page of python packaging.
-
-PyPI Pub
-~~~~~~~~
-The steps to publish this (or any other) repo to `PyPI`_ are covered in
-the `publication tutorial`_.
-
-Read The Docs
-~~~~~~~~~~~~~
-To publish documentation to Read The Docs follow the guide to 
-`documentation publication`_
-
-Version
-~~~~~~~
-The versioning standard of this project shall conform with `PEP 440`_'s 
-"canonical format". More specifically the project shall use a "simple"
-three tier "``major.minor.micro``" (``X.Y.Z``) schema. No prefix "v". 
-Dev versions are to use the ``.devN`` suffix. For example::
-
-    0.0.1
-    0.1.1
-    2.0.1
-    ...
-    2.1.0.dev1
 
 Repo Structure
 --------------
@@ -217,9 +119,11 @@ Heavily based on the commit format specified by `Jacob (dev.to)`_.
 
 Appendix
 --------
-Usefull code incantations:
-  - ``pip freeze | xargs pip uninstall -y``
+Useful code incantations:
+
+- ``pip freeze | xargs pip uninstall -y`` 
   - Uninstall all modules from python environment.
+- Hello again
 
 
 References
