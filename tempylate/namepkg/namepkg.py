@@ -1,9 +1,6 @@
 """
 Determine if a module name is good.
 
-.. warning::
-    Work In Progress.
-
 This module makes naming new packages easier by suggesting new names and
 checking that those names aren't already taken on the PyPI.
 

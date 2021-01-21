@@ -1,1 +1,1 @@
-print("YO")
+print("The main function is here.")
