@@ -1,34 +1,42 @@
 =========
 TEMPYLATE
 =========
+
+Construct and manage a new python project.
+
+This package constructs a new python project, including all files and
+folders required to start development of a new python project. It was
+built to overcome the repetitive nature of starting a new python 
+project. It takes the monotony of setting up boilerplate files, folders,
+etc when the majority of the projects undertaken use a fundamentally
+homeomorphous structure.
+
+Purpose
+-------
+
 This repo serves a few purposes:
 
 1. Personal learning.
-#. Template for future python projects.
-#. A reference repo.
-#. Showcase my personal process.
+2. Template for future python projects.
+3. A reference repo.
+4. Showcase my personal process.
 
-Sub-packages
-------------
-There are multiple sub-packages within this package, each of which
-addresses a certain problem. These sub packages are set out in this way
-rather than modules as any of them may grow into a stand-alone package
-at any time. These include:
+Implementation
+--------------
 
-1. fylr
+While python is flexible by design, there are a few generally accepted
+structures. The most popular project layouts are implemented including:
 
-   #. Construct a new project layout.
-   #. Manage existing project layouts.
+A. Official
 
-#. namepkg
+   - This is the project structure specified by the `PyPA`_.
 
-   #. Brainstorm project, package and module names.
-   #. Check for package name publication availabilities.
+B. Classic
+C. Flat
 
-#. tests
-   #. Provide tests for all core package functionality.
+So far NONE of these layouts are implemented fully.
 
-Folders
--------
-There are some folders within the package which contain materials:
+..
+   REFERENCES
 
+.. _PyPA: https://github.com/pypa/sampleproject
