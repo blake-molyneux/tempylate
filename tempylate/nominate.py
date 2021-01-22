@@ -4,7 +4,7 @@ Determine if a module name is good.
 This module makes naming new packages easier by suggesting new names and
 checking that those names aren't already taken on the PyPI.
 
-This module is a component of the *tempylate* project.
+This module is a component of the `tempylate` project.
 """
 
 __version__ = "0.0.1.dev0"
@@ -15,7 +15,6 @@ import logging
 log = logging.getLogger(__name__)
 cwd = pathlib.Path(__file__).absolute().parent
 
-import os
 import json
 import time
 import random
@@ -47,9 +46,9 @@ class Name:
         If a new name is requested, this sets how many suggestions are
         to be provided.
     start : str, Optional
-        A starting string upon which to add aditional letters/text.
+        A starting string upon which to add additional letters/text.
     save : bool, Optional
-        If set to true, any json data recieved will be saved. False by
+        If set to true, any json data received will be saved. False by
         default.
     path : pathlib.Path, Optional
         Specifies the dir to save the output json. Defaults to __file__.
@@ -80,7 +79,7 @@ class Name:
     def __init__(self, theme : str = '', number : int = 3, name : str = '',
             output : list = [], min_ : int = 3, max_ : int = 10,
             delay : int = 3, start : str = '', save : bool = True,
-            path : pathlib.Path() = cwd / 'data/cache.json'))):
+            path : pathlib.Path() = (cwd / 'data/cache.json')):
 
         self.name = name
         self.theme = theme
@@ -96,6 +95,8 @@ class Name:
         self.payload = {}
         self.cached = {}
 
+        pass
+
     def gen_new_name(self):
         """Generate new name(s) based on input parameters."""
         url_base = 'https://api.datamuse.com/words?'
@@ -109,8 +110,8 @@ class Name:
         else:
             # Create a random theme
             if (self.start == ''):
-                alph = 'abcdefghijklmnopqrstuvwxyz'
-                theme = alph[random.randrange(26)]
+                alphabet = 'abcdefghijklmnopqrstuvwxyz'
+                theme = alphabet[random.randrange(26)]
             else:
                 theme = self.start
             theme += '?'*random.randrange(self.min, self.max)
@@ -159,7 +160,7 @@ class Name:
         request = urllib.request.Request(url)
 
         try:
-            self.cached = self.read()
+            self.cached = self.load()
             if self.name in self.cached:
                 available = False
             pass
@@ -208,13 +209,13 @@ class Name:
             f.write(json.dumps(data, sort_keys=True, indent=4))
         pass
     
-    def read(self):
+    def load(self):
         """Load a saved payload file."""
         with open(self.path, 'r') as f:
             cached = json.loads(f.read())
         return cached
 
-def main():
+def cli():
     """
     This function gets run when this module is run directly.
 

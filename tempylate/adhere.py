@@ -7,9 +7,6 @@ module is not designed to be run directly.
 This module is a component of the `tempylate` project.
 """
 
-__author__ = "Blake Molyneux"
-__author__ = "Blake Molyneux"
-__license__ = "MIT"
 __version__ = "0.0.1.dev0"
 
 import pathlib
