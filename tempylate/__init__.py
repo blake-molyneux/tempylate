@@ -8,7 +8,7 @@ starting a new python project. It takes too long to setup boilerplate
 files, folders, etc when the majority of the projects undertaken use a
 fundamentally homeomorphous, specified structure.
 
-This module is a component of the **tempylate** project.
+This module is a component of the *tempylate* project.
 """
 
 
@@ -22,12 +22,11 @@ import logging
 log = logging.getLogger(__name__)
 cwd = pathlib.Path(__file__).absolute().parent
 
-from namepkg import Name
-
+import tempylate.nominate
 
 def rename():
     """
     Rename a package.
     """
-    raise NotImplementedError("I've not implemented rename yet.")
+    raise NotImplementedError('rename() not implemented yet')
     pass

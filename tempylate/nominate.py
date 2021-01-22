@@ -4,20 +4,20 @@ Determine if a module name is good.
 This module makes naming new packages easier by suggesting new names and
 checking that those names aren't already taken on the PyPI.
 
-This module is a component of the **tempylate** project.
+This module is a component of the *tempylate* project.
 """
 
-__author__ = "Blake Molyneux"
-__email__ = "blake.molyneux@hotmail.com"
-__docformat__ = "restructuredtext"
-__license__ = "MIT"
 __version__ = "0.0.1.dev0"
 
+import pathlib
 import logging
+
+log = logging.getLogger(__name__)
+cwd = pathlib.Path(__file__).absolute().parent
+
 import os
 import json
 import time
-import pathlib
 import random
 import urllib.request
 import urllib.parse
@@ -72,37 +72,23 @@ class Name:
     available : bool
         Whether or not the name is available on PyPI.
     save : bool
-        If set to true, any json data recieved will be saved. False by
+        If set to true, any json data received will be saved. False by
         default.
     path : pathlib.Path
         Specifies the dir to save the output json. Defaults to __file__.
-    pyload : dict
-        The raw dictionary data returned from this pypi request. Only 
-        exists if the package name exists.
-    cached : dict
-        The raw dictionary data cached from pypi. Contains all previous
-        payloads and names previously searched while save was enabled.
     """
-    def __init__(self, 
-                 theme : str = '', 
-                 number : int = 3,
-                 name : str = '',
-                 output : list = [],
-                 min : int = 3,
-                 max : int = 10,
-                 delay : int = 3,
-                 start : str = '',
-                 save : bool = True, 
-                 path : pathlib.Path() = (pathlib.Path(
-                       os.path.dirname(os.path.realpath(__file__)))
-                       / pathlib.Path('data/cache.json'))):
+    def __init__(self, theme : str = '', number : int = 3, name : str = '',
+            output : list = [], min_ : int = 3, max_ : int = 10,
+            delay : int = 3, start : str = '', save : bool = True,
+            path : pathlib.Path() = cwd / 'data/cache.json'))):
+
         self.name = name
         self.theme = theme
         self.number = number
         self.output = output
         self.save = save
-        self.min = min
-        self.max = max
+        self.min = min_
+        self.max = max_
         self.start = start
         self.delay = delay
         self.path = path
@@ -228,11 +214,6 @@ class Name:
             cached = json.loads(f.read())
         return cached
 
-def suggestions(random: bool = False,
-                theme: str = '',
-                number = 1):
-    return None
-
 def main():
     """
     This function gets run when this module is run directly.
@@ -242,7 +223,7 @@ def main():
 
     while (True): # UI Loop
         print('\n#=================#')
-        input_name = input('Input project name:\n')
+        input_name = input('Input project name:\n') 
         name = Name(name=input_name)
         name.save = True # Save the output
         name.check()
@@ -254,6 +235,3 @@ def main():
         print('#=================#\n')
 
     return None
-
-if __name__ == "__main__":
-    main()

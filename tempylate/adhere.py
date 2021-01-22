@@ -1,34 +1,54 @@
 """
 Create file and folder structures for a project.
 
-.. warning:: 
-    Work In Progress. This function is in active development.
-
 This module forms the backbone of the file and folder management. This
 module is not designed to be run directly.
 
-This module is a component of the **tempylate** project.
+This module is a component of the `tempylate` project.
 """
 
 __author__ = "Blake Molyneux"
-__email__ = "blake.molyneux@hotmail.com"
-__docformat__ = "restructuredtext"
+__author__ = "Blake Molyneux"
 __license__ = "MIT"
 __version__ = "0.0.1.dev0"
 
-import os
-import jinja2
 import pathlib
+import logging
 
-def main():
-    jenv = jinja2.Environment(
-        loader=jinja2.PackageLoader('fylr', 'templates'),
-        autoescape=True)
-    
-    template = jenv.get_template('module.py')
-    print(template.render(
-        module_comment='Hello World!'))
-    pass
+import jinja2
+
+log = logging.getLogger(__name__)
+cwd = pathlib.Path(__file__).absolute().parent
+
+env = jinja2.Environment(
+    loader=jinja2.PackageLoader('adhere', 'templates'),
+    autoescape=True,
+    )
+
+def load(path: pathlib.Path) -> str:
+    """
+    Load a template from a file on disk.
+
+    Parameters
+    ----------
+    path : pathlib.Path
+        The path to the template file to be loaded.
+
+    Returns
+    -------
+    str
+        The string output from the rendered template.
+    """
+
+    result = ''
+
+    template = env.get_template('module.py')
+
+    result = template.render(
+        test='random stuff here'
+    )
+
+    return result
 
 def mk_folder(path : pathlib.Path() = pathlib.Path('')):
     """
@@ -48,6 +68,8 @@ def mk_folder(path : pathlib.Path() = pathlib.Path('')):
         True if the directory was created successfully.
     """
 
+    raise NotImplementedError('mk_folder() not implemented')
+
     pass
 
 def mk_file(path : pathlib.Path() = pathlib.Path('')):
@@ -64,7 +86,7 @@ def mk_file(path : pathlib.Path() = pathlib.Path('')):
         Path to the directory in which to create the file.
     name : str
         Name of the file to be created. Include in this name a file
-        extenstion if that is desired.
+        extension if that is desired.
 
     Returns
     -------
@@ -72,8 +94,6 @@ def mk_file(path : pathlib.Path() = pathlib.Path('')):
         True if the file and directories were created successfully.
     """
 
+    raise NotImplementedError('mk_file() not implemented')
+
     pass
-
-
-if __name__ == "__main__":
-    main()
