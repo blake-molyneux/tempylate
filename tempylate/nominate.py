@@ -1,5 +1,5 @@
 """
-Determine if a module name is good.
+Find suitable names for a file/module/package/project.
 
 This module makes naming new packages easier by suggesting new names and
 checking that those names aren't already taken on the PyPI.
@@ -7,7 +7,7 @@ checking that those names aren't already taken on the PyPI.
 This module is a component of the `tempylate` project.
 """
 
-__version__ = "0.0.1.dev0"
+__version__ = '0.0.1.dev0'
 
 import pathlib
 import logging
@@ -20,6 +20,8 @@ import time
 import random
 import urllib.request
 import urllib.parse
+
+import markupsafe
 
 class RequestFailedError(Exception):
     """Exception raised for errors in the input.
@@ -217,9 +219,14 @@ class Name:
 
 def cli():
     """
-    This function gets run when this module is run directly.
+    Manually check whether names are available on PyPI.
 
-    Takes no arguments, and returns None.
+    Runs an infinite loop in the command line, where a name can be input
+    and the avilability status of that name on PyPI is printed.
+
+    Notes
+    -----
+    Please note that the input name is presently un
     """
 
     while (True): # UI Loop
@@ -234,5 +241,45 @@ def cli():
         else:
             print(f'{name.name} is taken.')
         print('#=================#\n')
-
     return None
+
+def find_names(theme, name, number, save, delay, minimum, maximum, start):
+    name = namepkg.Name(
+        theme=theme, name=name, number=number, save=save, delay=delay,
+        min=minimum, max=maximum, start=start)
+
+    if cla.name == '':
+        name.gen_new_name()
+        print(name.output)
+    else:
+        name.check()
+        if name.available:
+            end = 'available!'
+        else:
+            end = 'taken.'
+        print(f'"{name.name}" is {end}')
+    
+def get_args():
+    """Get Command Line Arguments."""
+    parser = argparse.ArgumentParser(description='Query packages on PyPI.')
+    
+    parser.add_argument('-t', '--theme', type=str, default='',
+        help='Topic or subject word to base suggestions upon.')
+    parser.add_argument('-m', '--name', type=str, default='',
+        help='Single input name.')
+    parser.add_argument('-p', '--start', type=str, default='',
+        help='Starting text to build names from (ie prefix).')
+    parser.add_argument('-n', '--number', type=int, default=3,
+        help='Number of results to be output.')
+    parser.add_argument('-s', '--save', default=True, 
+        action='store_false', help='Cache requested results?')
+    parser.add_argument('-d', '--delay', type=int, default=1, 
+        help='Max delay time (s) between sequential PyPI queries.')
+    parser.add_argument('-min', '--minimum', type=int, default=3, 
+        help='Min length of package names to search for.')
+    parser.add_argument('-max', '--maximum', type=int, default=10, 
+        help='Max length of package names to search for.')
+
+    cla = parser.parse_args()
+
+    return cla

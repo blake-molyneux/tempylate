@@ -7,7 +7,7 @@ module is not designed to be run directly.
 This module is a component of the `tempylate` project.
 """
 
-__version__ = "0.0.1.dev0"
+__version__ = '0.0.1.dev0'
 
 import pathlib
 import logging
