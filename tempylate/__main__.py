@@ -15,7 +15,7 @@ import argparse
 log = logging.getLogger(__name__)
 cwd = pathlib.Path(__file__).absolute().parent
 
-DEBUG = false # True disables the main() function
+DEBUG = False # True disables the main() function
 
 # This is the function run when the tempylate module is invoked.
 def main() -> None:
