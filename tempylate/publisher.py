@@ -18,8 +18,6 @@ Web App: TBD
 This module is a component of the `tempylate` project.
 """
 
-__version__ = '0.0.1.dev0'
-
 import pathlib
 import logging
 

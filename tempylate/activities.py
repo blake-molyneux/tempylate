@@ -5,8 +5,6 @@ This module contains various tools which enable task management, through
 the entire task management lifecycle.
 """
 
-__version__ = '0.0.1.dev0'
-
 import pathlib
 import logging
 

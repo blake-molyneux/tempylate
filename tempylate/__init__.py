@@ -15,13 +15,16 @@ __version__ = '0.0.1.dev0'
 
 import pathlib
 import logging
+import logging.config
+
+import tempylate.utils
+import tempylate.nominate
 
 log = logging.getLogger(__name__)
 cwd = pathlib.Path(__file__).absolute().parent
 
-import tempylate.adhere
-import tempylate.nominate
-import tempylate.nominate
+# Configure the logging system
+tempylate.utils.logging_config()
 
 def rename():
     """
