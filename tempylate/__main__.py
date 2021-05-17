@@ -18,7 +18,7 @@ DEBUG = False # True disables the main() function
 
 # This is the function run when the tempylate module is invoked.
 def main() -> None:
-    print('Hello world')
+    print(__name__)
     return None
 
 # Run the main function

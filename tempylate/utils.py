@@ -9,6 +9,7 @@ modules due to grouping or organizational rules.
 import json
 import pathlib
 import logging
+import logging.config
 import warnings
 
 log = logging.getLogger(__name__)
@@ -17,6 +18,9 @@ cwd = pathlib.Path(__file__).absolute().parent
 def logging_config(path: pathlib.Path = cwd/'docs/logs/config.json') -> None:
     """
     Load in global logging configuration from a logger config file.
+
+    This function works for JSON, YAML and Configparser style
+    configuration files.
 
     Parameters
     ----------
@@ -27,8 +31,9 @@ def logging_config(path: pathlib.Path = cwd/'docs/logs/config.json') -> None:
     """
 
     if (not path.is_file()):
-        # The logging configuration doesn't exists, raise a runtime warning
-        # Fix dumb warning format
+        # The logging configuration doesn't exists, raise a runtime warning.
+
+        # Fix dumb warning format for this one-time warning.
         warnings.formatwarning = warning_prettyprint
 
         # Construct and issue the warning
@@ -40,11 +45,18 @@ def logging_config(path: pathlib.Path = cwd/'docs/logs/config.json') -> None:
             f'"{path}"'), category=UserWarning, stacklevel=1)
 
     else:
-        # The logging configuration exists
-        # Load config dict from json
-        logging_config = load(path)
-        # Apply the dict logging config
-        logging.config.dictConfig(logging_config)
+        # The logging configuration exists.
+
+        # Check if the config file uses a standard file type.
+        use_inbuilt = [(x==path.suffix) for x in ['.ini', '.yml']]
+        if any(use_inbuilt):
+            # The loggin configuration is using the configparser 'ini' type.
+            logging.config.fileConfig(str(path))
+        else:
+            # Load config dict from json.
+            logging_config = load(path)
+            # Apply the dict logging config
+            logging.config.dictConfig(logging_config)
 
     return None
 
