@@ -15,11 +15,6 @@ import jinja2
 log = logging.getLogger(__name__)
 cwd = pathlib.Path(__file__).absolute().parent
 
-env = jinja2.Environment(
-    loader=jinja2.PackageLoader(__name__, 'templates'),
-    autoescape=True,
-    )
-
 def load(path: pathlib.Path) -> str:
     """
     Load a template from a file on disk.
