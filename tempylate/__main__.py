@@ -25,9 +25,10 @@ def main() -> None:
         mode = input("Do you wish to check pypi package names? (Y/n)")
         if (mode == 'Y') or (mode == 'y'):
             # Check pypi package availability
+            pass
         else:
             # Don't check pypi packged availability
-            ...
+            pass
         print("=======================\nWhat's the theme?")
         theme = input()
         print("How many names should be generated?")
