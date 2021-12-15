@@ -20,20 +20,16 @@ DEBUG = False # True disables the main() function
 
 # This is the function run when the tempylate module is invoked.
 def main() -> None:
+    # Does the user want to find pypi package names or just module names?
+    mode = (input("Do you wish to check pypi package names? (Y/n)\n").lower() == 'y')
     while True:
-        # Does the user want to find pypi package names or just module names?
-        mode = input("Do you wish to check pypi package names? (Y/n)")
-        if (mode == 'Y') or (mode == 'y'):
-            # Check pypi package availability
-            pass
-        else:
-            # Don't check pypi packged availability
-            pass
         print("=======================\nWhat's the theme?")
         theme = input()
-        print("How many names should be generated?")
-        number = int(input())
-        name = nominate.Name(theme=theme, number=number)
+        if mode:
+            number = int(input("How many names should be generated?\n"))
+        else:
+            number = 0
+        name = nominate.Name(theme=theme, number=number, check_pypi=mode)
         name.gen_new_name()
         print("The results are: " + ", ".join(name.output))
         print("=======================\n")

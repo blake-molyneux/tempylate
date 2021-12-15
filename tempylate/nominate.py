@@ -80,7 +80,8 @@ class Name:
     def __init__(self, theme : str = '', number : int = 3, name : str = '',
             output : list = [], min_ : int = 3, max_ : int = 10,
             delay : int = 3, start : str = '', save : bool = True,
-            path : pathlib.Path() = (cwd / 'data/cache.json')):
+            path : pathlib.Path() = (cwd / 'data/cache.json'),
+            check_pypi:bool = False):
 
         self.name = name
         self.theme = theme
@@ -93,6 +94,7 @@ class Name:
         self.delay = delay
         self.path = path
         self.available = False
+        self.check_pypi = check_pypi
         self.payload = {}
         self.cached = {}
 
@@ -128,6 +130,11 @@ class Name:
             with urllib.request.urlopen(request) as f:
                 payload = json.loads(f.read().decode('utf-8'))
             print(f'{len(payload)} potential names found.')
+
+            if not self.check_pypi:
+                self.output = [x['word'] for x in payload]
+                return None
+
             print('Querying PyPI for available packages...')
 
             count = 0
@@ -146,11 +153,11 @@ class Name:
                 index += 1
             print('')
             self.output = names
-            pass
 
         except urllib.error.HTTPError as error:
-            raise RequestFailedError('Data could not be loaded from web api.')
-        pass
+            raise RequestFailedError('Data could not be loaded from web api.') 
+
+        return None
 
     def check(self):
         """Check to see if the name is available on PyPI."""
