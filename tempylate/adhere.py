@@ -10,8 +10,6 @@ This module is a component of the `tempylate` project.
 import pathlib
 import logging
 
-import jinja2
-
 log = logging.getLogger(__name__)
 cwd = pathlib.Path(__file__).absolute().parent
 
@@ -31,12 +29,6 @@ def load(path: pathlib.Path) -> str:
     """
 
     result = ''
-
-    template = env.get_template('module.py')
-
-    result = template.render(
-        test='random stuff here'
-    )
 
     return result
 
