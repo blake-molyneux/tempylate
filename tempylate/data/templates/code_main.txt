@@ -1,0 +1,9 @@
+def main(*args, **kwargs):
+    """The main function of the module."""
+    LOG.debug(f"The main function of the '{__name__}' was invoked, with"
+        f" positional arguments: {args}; and keyword arguments:{kwargs}")
+    return None
+
+# Run the main function
+if __name__ == '__main__':
+    main()

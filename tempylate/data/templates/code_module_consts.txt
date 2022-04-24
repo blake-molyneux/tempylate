@@ -1,0 +1,4 @@
+# Module level constants.
+CWD = pathlib.Path(__file__).absolute().parent # Current working directory
+LOG = logging.getLogger(__name__)
+PWD = pathlib.Path(os.getcwd()) # Parent working directory
